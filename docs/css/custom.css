@@ -1,0 +1,920 @@
+@charset "UTF-8";
+
+/* 
+------------------------------------------------------------
+Available fonts for use:
+------------------------------------------------------------
+font-family: 'PT Serif', serif;
+font-family: 'Muli', sans-serif;
+font-family: 'Martel', serif;
+font-family: 'Encode Sans Expanded', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Cutive+Mono'
+font-family: 'PT+Mono'
+------------------------------------------------------------
+*/
+
+/* 
+------------------------------------------------------------
+Fontawesome
+------------------------------------------------------------
+*/
+
+/*
+Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
+License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+
+--------------------
+Icons: 
+--------------------
+1. Github
+2. Back-to-top
+
+--------------------
+Custom framework: 
+--------------------
+1. Blue background.
+2. White icon. 
+*/
+
+#custom_back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 0;
+}
+
+#custom_back-to-top i {
+    margin: 0;
+    position: relative;
+}
+
+#custom_back-to-top:hover {
+    background: #005cbe;
+}
+
+#custom_github {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  border-radius: 0;
+}
+
+#custom_github i {
+  margin: 0;
+  position: relative;
+}
+
+#custom_github:hover {
+  background: #005cbe;
+}
+
+/* 
+------------------------------------------------------------
+Foundation
+------------------------------------------------------------
+*/
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  color: #505050;
+  font-family: 'Muli', sans-serif;
+}
+.footer {
+  position: absolute;
+  bottom: 35px;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 1.5em; /* Vertically center the text there */
+  font-size: 15px;
+}
+
+/* 
+------------------------------------------------------------
+Basic page styling
+------------------------------------------------------------
+*/
+
+body > .container {
+  padding: 80px 15px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 500px) {
+  .footer > .container {
+    font-size: 0.9em;
+    line-height: 1.5em;
+    margin-top: 50px;
+    margin-bottom: 70px;
+  }
+}
+
+a {
+  color: #007bff;
+}
+
+a:hover {
+  color: #dadada;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.content {
+  font-size: 1.1em;
+}
+
+/* 
+---------------------------------------------------------
+Header
+---------------------------------------------------------
+*/
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Martel", serif;
+  font-weight: bold;
+}
+
+h3 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: "Muli", sans-serif;
+}
+
+/* 
+------------------------------------------------------------
+Navbar
+------------------------------------------------------------
+*/
+
+.navbar {
+  background-color: #ffffff;
+  border-bottom: solid 0.5px #007bff;
+}
+
+.navbar .navbar-brand, .navbar .navbar-brand:hover {
+  color: #007bff;
+  letter-spacing: 1px;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  font-family: "Muli", sans-serif;
+}
+
+.navbar-nav > li > a {
+  color: #007bff;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+.navbar-toggler {
+  background-color: #007bff;
+  border-radius: 0;
+  padding: 5px 7px 5px 7px;
+  margin: 0px 0px 0px 0px;
+}
+
+.navbar .dropdown-menu {
+  border-color: #007bff;
+  border-radius: 0;
+}
+
+.navbar .dropdown-item {
+  color: #007bff;
+}
+
+.navbar-toggler-icon { 
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")
+}
+
+/* 
+------------------------------------------------------------
+Homepage
+------------------------------------------------------------
+*/
+
+.homepage h1 {
+  text-align: center;
+  margin: 0px 0px 35px 0px;
+  line-height: 1.15em;
+  font-weight: 600;
+  font-size: 4.3em;
+  font-family: "Martel", serif;
+}
+
+.homepage h1 .main_line{
+  font-size: .85em;
+  font-weight: 700;
+}
+
+/* Small header for main links and tags */
+.homepage .header_line{
+  font-size: 1.2em;
+  font-weight: 400;
+  letter-spacing: 0pt;
+  margin-top: 20px;
+  color: #007bff;
+}
+
+/* Main links */
+.homepage h1 a{
+  text-decoration: none;
+  color: #007bff;
+  display: block;
+}
+
+.homepage h1 a:hover{
+  color: #dadada;
+}
+
+@media screen and (max-width: 500px) {
+  .homepage h1 {
+    font-size: 2.1em;
+    line-height: 1.1em;
+    margin: 0px 0px 20px 0px;
+  }
+  .homepage .header_line {
+    font-size: 1em;
+  }
+}
+
+/* Tags or categories links */
+.home_tags {
+  text-decoration: underline;
+  line-height: 2em;
+  font-size: 1.1em;
+}
+
+/* Horizontal line separator */
+.category_separator {
+  margin-top: 35px;
+  margin-bottom: 25px;
+  border: solid 0.5px #007bff;
+  max-width: 1200px;
+}
+
+/* Whitespace between tags or categories */
+.separator {
+  margin-left: 10px;
+  margin-right: 10px; 
+}
+
+@media screen and (max-width: 500px) {
+  .home_tags {
+    text-decoration: underline;
+    line-height: 2em;
+    font-family: "Muli" sans-serif;
+    font-size: 0.9em !important;
+  }
+}
+
+.homepage .container {
+  margin-bottom: 60px
+}
+
+.homepage h2 {
+  text-align: center;
+  font-size: 1.85em;
+  font-weight: 700;
+  margin: 20px 0px 20px 0px;
+}
+
+.homepage h3 {
+  font-size: 1.4em;
+  font-weight: 700;
+}
+
+.homepage h3.category_header {
+  /* --Disabled-- background-color: #007bff; */
+  color: rgb(84, 84, 84); /* rgb(84, 84, 84) */
+  padding: 10px 20px 10px 20px;
+  border: solid 1px #ccc;
+  border-radius: 0.25em; /* Added by me */
+  /* --Disabled-- border-top: solid 2px #007bff; */
+  /* --Disabled-- border-bottom: solid 2px #007bff; */
+  /* --Disabled-- margin-bottom: 20px; */
+  /* --Disabled-- margin-top: 40px; */
+}
+
+.homepage h4 {
+  font-size: 1.2em;
+  font-weight: normal;
+}
+
+.homepage h4 .card_header {
+  font-size: 1.2em;
+}
+
+.homepage p{
+  font-size: 1em;
+  font-family: "Muli", sans-serif;
+  font-weight: 400;
+}
+
+.homepage .blurb{
+  margin-bottom: 1.5em;
+}
+
+/* Border for main links and tags small header */
+.custom_btn {
+  margin-bottom: 35px;
+  margin-left: 2px;
+  margin-right: 2px;
+  border-radius: 0;
+  padding: 5px;
+  padding-left: 12px; 
+  padding-right: 12px; 
+}
+
+.custom_btn:hover{
+  background-color: #ffffff;
+}
+
+/* 
+------------------------------------------------------------
+Homepage cards
+------------------------------------------------------------
+*/
+
+.homepage .card{
+  border-radius: 0rem;
+  margin-bottom: 20px;
+}
+
+.homepage .card-header {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.homepage .card-body ul{
+    padding-left: 20px;
+    margin-bottom: 0;
+  }
+
+  .homepage .card-body li{
+    font-size: 1.05em;
+  }
+
+@media (min-width: 500px) {
+  .homepage .card-body {
+    -webkit-columns: 384px 2;
+      -moz-columns: 384px 2;
+          columns: 384px 2;
+  }}
+
+  .homepage .article_list li{
+    font-size: 1em;
+  }
+
+  .article_list .date_published {
+    font-size: .7em;
+  }
+
+  .homepage .article_list {
+    -webkit-columns: 1;
+    -moz-columns: 1;
+    columns: 1;
+  }
+ 
+  @media (min-width: 500px) {
+    .homepage .article_list {
+      -webkit-columns: 1;
+      -moz-columns: 1;
+      columns: 1;
+    }
+    
+    .homepage .article_list li{
+      font-size: 1.2em;
+    }
+  }
+
+/* 
+------------------------------------------------------------
+About
+------------------------------------------------------------
+*/
+
+.about_page {
+  font-family: "Martel", serif;
+  font-size: 1em;
+  line-height: 1.75em;
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.about_page h1 {
+  color: #007bff;
+  font-size: 2.8em;
+  font-weight: 600;
+  letter-spacing: .15pt;
+  /* margin-top: 35px; */
+  margin-bottom: 15px;
+  /* padding-top: 35px; */
+  /* border-top: solid 0.5px #cccccc; */
+}
+
+.about_page hr {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 500px) {
+  .about_page {
+    font-size: 0.8em;
+    line-height: 1.75em;
+    max-width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .about_page h1 {
+    font-size: 2em;
+    /* margin-top: 40px; */
+    margin-bottom: 10px;
+    /* margin-top: 30px; */
+    /* padding-top: 30px; */
+  }
+  .about_page h3 {
+    font-size: 1.4em;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  .about_page ul {
+    padding: 0 0em 0 2.3em !important;
+  }
+}
+
+/* 
+------------------------------------------------------------
+Technical Notes
+------------------------------------------------------------
+*/
+
+.technical_note {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.technica_note, .page {
+  font-family: 'Muli', sans-serif;
+}
+
+.technical_note .technical_note_date{
+  margin-bottom: 2em;
+  font-size: 1em;
+}
+
+.technical_note .mjx-math{
+  font-size: 0.9em;
+  font-family: 'Martel', serif;
+}
+
+.technical_note h1, .page h1{
+  font-size: 2.5rem;
+  margin-top: 20px;
+  font-family: 'Martel', serif;
+}
+
+/* Horizontal line separator */
+.technical_note .category_separator{
+  font-family: 'Martel', serif;
+  margin-top: -10px;
+  margin-bottom: 45px;
+  border: solid 0.5px #cccccc;
+}
+
+.technical_note h2{
+  font-size: 1.6em;
+  font-weight: 700;
+  margin-top: 1em;
+  margin-bottom: 20px;
+  font-family: 'Muli', sans-serif;
+}
+
+.technical_note h3{
+  font-size: 1.2em;
+  font-weight: 700;
+  margin-top: 1em;
+  margin-bottom: 20px;
+  font-family: 'Martel', serif;
+}
+
+.technical_note h4{
+  font-size: 1.00em;
+  font-weight: 700;
+  margin-top: 1em;
+  margin-bottom: 15px;
+  font-family: 'Martel', serif;
+}
+
+.technical_note h5{
+  font-size: 1em;
+  font-weight: 700;
+  margin-top: 1em;
+  margin-bottom: 15px;
+  font-family: 'Martel', serif;
+}
+
+.technical_note p, .technical_note li {
+  font-family: 'Martel', serif;
+  font-size: 0.8em;
+  line-height: 1.6em;
+}
+
+.technical_note li ul li {
+  font-family: 'Martel', serif;
+  font-size: 1em;
+  line-height: 1.6em;
+}
+
+@media screen and (max-width: 500px) {
+  .technical_note {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .technical_note h1, .page h1 {
+    font-size: 2rem;
+  }
+  .technical_note h2 {
+    font-size: 1.3em;
+  }
+  .technical_note .technical_note_date {
+    font-size: 1em;
+  }
+  .technical_note .mjx-math, .technical_note p, .technical_note li {
+    font-size: 0.8em;
+  }
+}
+
+/* 
+------------------------------------------------------------
+Code
+------------------------------------------------------------
+*/
+
+code {
+  font-size: 100%;
+}
+
+pre code{
+  color:#747474;
+  font-size: 1em;
+  font-family: 'Cutive+Mono', monospace;
+}
+
+pre {
+  padding: .5em;
+  display: block;
+  margin-bottom: .5em;
+  font-size: .85em;
+}
+
+.highlight pre{
+  border: 1px solid #ccc;
+  line-height: 1.3em;
+  padding: 1em;
+  background-color: #f9f9f9; /* Added by me */
+  border-radius: 0em /* Added by me */
+}
+
+.table-responsive {
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 500px) {
+  pre code { 
+    font-size:0.9em; 
+  }
+  .highlight pre {
+    line-height: 1.1em;
+  }
+}
+
+/* 
+------------------------------------------------------------
+Code Tables
+------------------------------------------------------------
+*/
+
+table{
+  margin: 1em;
+}
+
+table,tr,th,td{
+  font-family: sans-serif;
+  border:1px solid #ccc; /* Altered by me */
+  border-collapse:collapse;
+  padding: 5px;
+  font-size: .9em; /* Altered by me */
+  line-height: 1.3em;
+}
+
+td, th{
+  text-align:left;
+  vertical-align:middle;
+  /* --Disabled-- word-break:break-all; */
+}
+
+th{
+  font-weight:bold;
+  background-color: #f9f9f9;
+}
+
+/* 
+------------------------------------------------------------
+Articles List
+------------------------------------------------------------
+*/
+
+.list-group {
+  font-size: 1.4em;
+  padding-inline-start: 0px;
+}
+
+.list-group .list-group-item {
+  display: block;
+  color: #505050;
+  /* --Disabled-- margin-top: 15px; */
+  /* --Disabled-- margin-bottom: 15px; */
+}
+
+.list-group .date_published {
+  font-size: .5em;
+  color: #495057;
+}
+
+.article_description {
+  font-size: .8em;
+  font-family: "Martel", serif;
+  color: #495057;
+}
+
+hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* --Disabled-- .tag {
+  font-family: "Muli", sans-serif;
+  font-style: italic;
+  display: inline;
+  font-size: 0.5em; 
+  text-align: left;
+} */
+
+/* 
+------------------------------------------------------------
+Articles
+------------------------------------------------------------
+*/
+
+.article h1 {
+  text-align: center;
+  margin: 0px 0px 60px 0px;
+  line-height: 1.15em;
+  font-weight: 600;
+  font-size: 4.3em;
+  font-family: "Martel", serif;
+  color: #dadada;
+}
+
+.article .header_line{
+  font-size: 1.2em;
+  font-weight: 400;
+  letter-spacing: 0pt;
+  margin-top: 20px;
+  color: #007bff;
+}
+
+.article h1 a{
+  text-decoration: none;
+  color: #007bff;
+  display: block;
+}
+
+.article h1 a:hover{
+  color: #dadada;
+}
+
+@media screen and (max-width: 500px) {
+  .article h1 {
+    font-size: 1.7em;
+    line-height: 1.1em;
+    margin: 0px 0px 25px 0px;
+  }
+  .article .header_line {
+    font-size: 1em;
+  }
+}
+
+.article .home_tags {
+  text-decoration: underline;
+  line-height: 2em;
+  font-size: 1.2em;
+}
+
+.article .category_separator {
+  margin-top: 50px;
+  margin-bottom: 35px;
+  border: solid 0.5px #007bff;
+  max-width: 1200px;
+}
+
+.article .separator {
+  margin-left: 10px;
+  margin-right: 10px; 
+}
+
+/*
+.article h1 {
+  font-weight: bold;
+  font-family: 'Muli', sans-serif;
+  text-align: center;
+  margin-bottom:10px;
+}
+
+.article header {
+  margin: 30px 0 30px 0;
+}
+*/
+
+.article_page {
+  text-align: left;
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 800px) {
+  .article_page {
+    max-width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .article_page .content p, .article_page .content li, .article_page .content p .mjx-math {
+    font-size: 1em !important; 
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .article_page .content p, .article_page .content li, .article_page .content p .mjx-math {
+    font-size: 0.8em !important; 
+  }
+  .article_page h2 {
+    font-size: 2.0em !important; 
+  }
+  .article_page .article_date {
+    font-size: 1em !important; 
+    margin: 0px 0px 15px 0px !important;
+  }
+  .article_page h3 {
+    font-size: 1.2em !important; 
+  }
+  .article_page .content blockquote {
+    padding: 0 2.1em 0 2.1em !important;
+  }
+}
+
+.article_page .content{
+  font-family: "Martel", serif;
+}
+
+.article_page .content p, .article_page .content li{
+  font-size: 1em;
+  line-height: 1.75em;
+  letter-spacing: 0pt;
+}
+
+.article_page .content p{
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+}
+
+.article_page .content p .mjx-math {
+  font-size: 1em;
+}
+
+.article_page .content blockquote{
+  padding: 0 4em 0 4em;
+  color: #776f68;
+}
+
+.article_page .article_date{
+  font-size: 1.4em;
+  text-align: center;
+  font-family: 'Muli', sans-serif;
+  margin: 0px 0px 25px 0px;
+}
+
+.article_page h2{
+  text-align: center;
+  font-size: 3.1em;
+  line-height: 1.2em;
+  font-family: 'Martel', sans-serif;
+  font-weight: 600;
+  color: #007bff;
+  margin: 20px 0px 5px 0px;
+}
+
+.article_page h3{
+  font-size: 1.6em;
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+  margin: 0px 0px 20px 0px;
+}
+
+.article_page h4{
+  font-size: 1.2em;
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+}
+
+.article_page h5{
+  font-size: 1.1em;
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+}
+*/
+
+/* 
+------------------------------------------------------------
+Biography 
+------------------------------------------------------------
+*/
+
+.biography{
+  padding: 1em;
+  border: solid 1px #e6e6e6;
+  margin-top: 3em;
+}
+
+.biography p{
+  margin: 0;
+  font-style: italic;
+  font-family: "Martel";
+  font-size: 1.2em;
+  color:#666666;
+}
+
+/* 
+------------------------------------------------------------
+Images
+------------------------------------------------------------
+*/
+
+img{
+  max-width: 100%;
+  height: auto;
+  width: 100%\9; /* ie8 */
+  display:block;
+  /* margin-left: auto; */
+  margin-right: auto;
+}
+
+/* 
+------------------------------------------------------------
+Bug reporting
+------------------------------------------------------------
+*/
+
+.bug_reporting{
+    padding: 1em;
+    border: solid 1px #e6e6e6;
+    margin-top: 4em;
+}
+
+.bug_reporting h4{
+    margin: 0 0 10px 0;
+    font-size: 16px;
+}
+
+.bug_reporting p{
+    margin: 0;
+    font-size: 14px;
+}
+
+/* 
+------------------------------------------------------------
+Render Math
+------------------------------------------------------------
+*/
+
+div .math {
+  font-size: 1em;
+}

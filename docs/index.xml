@@ -1,0 +1,296 @@
+
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lionel Tay</title>
+    <link>https://lionelcub.github.io/site/</link>
+    <description></description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Jan 2020 05:48:44 +0800</lastBuildDate>
+    
+        <atom:link href="https://lionelcub.github.io/site/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Designing Database With SQL</title>
+      <link>https://lionelcub.github.io/site/building_database/designing_database_with_sql/</link>
+      <pubDate>Tue, 07 Jan 2020 05:48:44 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/building_database/designing_database_with_sql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Designing Database With SQL</title>
+      <link>https://lionelcub.github.io/site/tag/sqlite_or_postgresql/designing_database_with_sql/</link>
+      <pubDate>Tue, 07 Jan 2020 05:48:44 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/tag/sqlite_or_postgresql/designing_database_with_sql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ames Housing Prices Prediction</title>
+      <link>https://lionelcub.github.io/site/domain/price_prediction/ames_housing_prices_regression/</link>
+      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/domain/price_prediction/ames_housing_prices_regression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ames Housing Prices Prediction</title>
+      <link>https://lionelcub.github.io/site/machine_learning/ames_housing_prices_regression/</link>
+      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/machine_learning/ames_housing_prices_regression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ames Housing Prices Prediction</title>
+      <link>https://lionelcub.github.io/site/tag/ml_regression/ames_housing_prices_regression/</link>
+      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/tag/ml_regression/ames_housing_prices_regression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ames Housing Prices Prediction</title>
+      <link>https://lionelcub.github.io/site/tag/python/ames_housing_prices_regression/</link>
+      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/tag/python/ames_housing_prices_regression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Applying API Requests On Hacker News Search API.</title>
+      <link>https://lionelcub.github.io/site/data_collecting/applying_api_requests_on_hacker_news_search_api/</link>
+      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/data_collecting/applying_api_requests_on_hacker_news_search_api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Applying API Requests On Hacker News Search API.</title>
+      <link>https://lionelcub.github.io/site/tag/api_requests/applying_api_requests_on_hacker_news_search_api/</link>
+      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/tag/api_requests/applying_api_requests_on_hacker_news_search_api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Applying API Requests On Hacker News Search API.</title>
+      <link>https://lionelcub.github.io/site/tag/python/applying_api_requests_on_hacker_news_search_api/</link>
+      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/tag/python/applying_api_requests_on_hacker_news_search_api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Applying API Requests On Hacker News Stories.</title>
+      <link>https://lionelcub.github.io/site/data_collecting/applying_api_requests_on_hacker_news_stories/</link>
+      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/data_collecting/applying_api_requests_on_hacker_news_stories/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Applying API Requests On Hacker News Stories.</title>
+      <link>https://lionelcub.github.io/site/tag/api_requests/applying_api_requests_on_hacker_news_stories/</link>
+      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/tag/api_requests/applying_api_requests_on_hacker_news_stories/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Applying API Requests On Hacker News Stories.</title>
+      <link>https://lionelcub.github.io/site/tag/python/applying_api_requests_on_hacker_news_stories/</link>
+      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/tag/python/applying_api_requests_on_hacker_news_stories/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Applying Web Scraping On IMDB &amp; Metascore Movie Ratings</title>
+      <link>https://lionelcub.github.io/site/data_collecting/applying_web_scraping_on_imdb_and_metascore_movie_ratings/</link>
+      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/data_collecting/applying_web_scraping_on_imdb_and_metascore_movie_ratings/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Applying Web Scraping On IMDB &amp; Metascore Movie Ratings</title>
+      <link>https://lionelcub.github.io/site/tag/python/applying_web_scraping_on_imdb_and_metascore_movie_ratings/</link>
+      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/tag/python/applying_web_scraping_on_imdb_and_metascore_movie_ratings/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Applying Web Scraping On IMDB &amp; Metascore Movie Ratings</title>
+      <link>https://lionelcub.github.io/site/tag/web_scraping/applying_web_scraping_on_imdb_and_metascore_movie_ratings/</link>
+      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/tag/web_scraping/applying_web_scraping_on_imdb_and_metascore_movie_ratings/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building Pipeline For Hacker News Search API.</title>
+      <link>https://lionelcub.github.io/site/building_data_pipeline/building_pipeline_for_hacker_news_search_api/</link>
+      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/building_data_pipeline/building_pipeline_for_hacker_news_search_api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building Pipeline For Hacker News Search API.</title>
+      <link>https://lionelcub.github.io/site/tag/data_pipeline/building_pipeline_for_hacker_news_search_api/</link>
+      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/tag/data_pipeline/building_pipeline_for_hacker_news_search_api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building Pipeline For Hacker News Search API.</title>
+      <link>https://lionelcub.github.io/site/tag/python/building_pipeline_for_hacker_news_search_api/</link>
+      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/tag/python/building_pipeline_for_hacker_news_search_api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cardio Fitness Customers Analysis &amp; Recommendation For Market Targeting.</title>
+      <link>https://lionelcub.github.io/site/analysis_and_visualisation/cardio_fitness_customers_analysis_and_recommendation_for_market_targeting/</link>
+      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/analysis_and_visualisation/cardio_fitness_customers_analysis_and_recommendation_for_market_targeting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cardio Fitness Customers Analysis &amp; Recommendation For Market Targeting.</title>
+      <link>https://lionelcub.github.io/site/domain/customer_analysis/cardio_fitness_customers_analysis_and_recommendation_for_market_targeting/</link>
+      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/domain/customer_analysis/cardio_fitness_customers_analysis_and_recommendation_for_market_targeting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cardio Fitness Customers Analysis &amp; Recommendation For Market Targeting.</title>
+      <link>https://lionelcub.github.io/site/tag/r/cardio_fitness_customers_analysis_and_recommendation_for_market_targeting/</link>
+      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/tag/r/cardio_fitness_customers_analysis_and_recommendation_for_market_targeting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cold Storage Milk Quality Maintainance Investigation.</title>
+      <link>https://lionelcub.github.io/site/domain/product_analysis/cold_storage_milk_quality_maintainance_investigation/</link>
+      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/domain/product_analysis/cold_storage_milk_quality_maintainance_investigation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cold Storage Milk Quality Maintainance Investigation.</title>
+      <link>https://lionelcub.github.io/site/statistical_testing/cold_storage_milk_quality_maintainance_investigation/</link>
+      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/statistical_testing/cold_storage_milk_quality_maintainance_investigation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cold Storage Milk Quality Maintainance Investigation.</title>
+      <link>https://lionelcub.github.io/site/tag/r/cold_storage_milk_quality_maintainance_investigation/</link>
+      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/tag/r/cold_storage_milk_quality_maintainance_investigation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Finding The Best Markets To Advertise Products.</title>
+      <link>https://lionelcub.github.io/site/analysis_and_visualisation/finding_the_best_markets_to_advertise_products/</link>
+      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/analysis_and_visualisation/finding_the_best_markets_to_advertise_products/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Finding The Best Markets To Advertise Products.</title>
+      <link>https://lionelcub.github.io/site/domain/market_analysis/finding_the_best_markets_to_advertise_products/</link>
+      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/domain/market_analysis/finding_the_best_markets_to_advertise_products/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Finding The Best Markets To Advertise Products.</title>
+      <link>https://lionelcub.github.io/site/tag/python/finding_the_best_markets_to_advertise_products/</link>
+      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/tag/python/finding_the_best_markets_to_advertise_products/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Investigating Complaint Against Cold Storage Milk Products.</title>
+      <link>https://lionelcub.github.io/site/domain/product_analysis/investigating_complaint_against_cold_storage_milk_products/</link>
+      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/domain/product_analysis/investigating_complaint_against_cold_storage_milk_products/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Investigating Complaint Against Cold Storage Milk Products.</title>
+      <link>https://lionelcub.github.io/site/statistical_testing/investigating_complaint_against_cold_storage_milk_products/</link>
+      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/statistical_testing/investigating_complaint_against_cold_storage_milk_products/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Investigating Complaint Against Cold Storage Milk Products.</title>
+      <link>https://lionelcub.github.io/site/tag/r/investigating_complaint_against_cold_storage_milk_products/</link>
+      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/tag/r/investigating_complaint_against_cold_storage_milk_products/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://lionelcub.github.io/site/about/about_me/</link>
+      <pubDate>Sun, 21 Jul 2019 04:50:32 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/about/about_me/</guid>
+      <description>Hi, I&amp;rsquo;m Lionel, nice to meet you.  --  Data Analyst / Inquisitive / Problem Solver / Pragmatic / Organised
+I have keen interests in creative, cognitive, and quantitative challenges. As an analyst, I often curious and question about various subjects, processes, and outcomes. I understand the significance of practicality. Advising a well-defined action is just as important as insight mining. I&amp;rsquo;m an organised person. I track my studies and activities to keep my productivity and routine in check with scrum and other methods.</description>
+    </item>
+    
+  </channel>
+</rss>

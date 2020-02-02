@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on Lionel Tay</title>
+    <link>https://lionelcub.github.io/site/about/</link>
+    <description>Recent content in Abouts on Lionel Tay</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 21 Jul 2019 04:50:32 +0800</lastBuildDate>
+    
+	<atom:link href="https://lionelcub.github.io/site/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://lionelcub.github.io/site/about/about_me/</link>
+      <pubDate>Sun, 21 Jul 2019 04:50:32 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/about/about_me/</guid>
+      <description>Hi, I&amp;rsquo;m Lionel, nice to meet you.  --  Data Analyst / Inquisitive / Problem Solver / Pragmatic / Organised
+I have keen interests in creative, cognitive, and quantitative challenges. As an analyst, I often curious and question about various subjects, processes, and outcomes. I understand the significance of practicality. Advising a well-defined action is just as important as insight mining. I&amp;rsquo;m an organised person. I track my studies and activities to keep my productivity and routine in check with scrum and other methods.</description>
+    </item>
+    
+  </channel>
+</rss>

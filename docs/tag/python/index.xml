@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Lionel Tay</title>
+    <link>https://lionelcub.github.io/site/tag/python/</link>
+    <description>Recent content in Python on Lionel Tay</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 19 Jul 2019 22:36:38 +0800</lastBuildDate>
+    
+	<atom:link href="https://lionelcub.github.io/site/tag/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ames Housing Prices Prediction</title>
+      <link>https://lionelcub.github.io/site/tag/python/ames_housing_prices_regression/</link>
+      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/tag/python/ames_housing_prices_regression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Applying API Requests On Hacker News Search API.</title>
+      <link>https://lionelcub.github.io/site/tag/python/applying_api_requests_on_hacker_news_search_api/</link>
+      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/tag/python/applying_api_requests_on_hacker_news_search_api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Applying API Requests On Hacker News Stories.</title>
+      <link>https://lionelcub.github.io/site/tag/python/applying_api_requests_on_hacker_news_stories/</link>
+      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/tag/python/applying_api_requests_on_hacker_news_stories/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Applying Web Scraping On IMDB &amp; Metascore Movie Ratings</title>
+      <link>https://lionelcub.github.io/site/tag/python/applying_web_scraping_on_imdb_and_metascore_movie_ratings/</link>
+      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/tag/python/applying_web_scraping_on_imdb_and_metascore_movie_ratings/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building Pipeline For Hacker News Search API.</title>
+      <link>https://lionelcub.github.io/site/tag/python/building_pipeline_for_hacker_news_search_api/</link>
+      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/tag/python/building_pipeline_for_hacker_news_search_api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Finding The Best Markets To Advertise Products.</title>
+      <link>https://lionelcub.github.io/site/tag/python/finding_the_best_markets_to_advertise_products/</link>
+      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/tag/python/finding_the_best_markets_to_advertise_products/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
