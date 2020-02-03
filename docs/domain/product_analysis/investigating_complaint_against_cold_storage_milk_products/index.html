@@ -12,7 +12,7 @@
     "@type": "BlogPosting",
     "headline": "Investigating Complaint Against Cold Storage Milk Products.",
     "url": "https:\/\/lionelcub.github.io\/site\/domain\/product_analysis\/investigating_complaint_against_cold_storage_milk_products\/",
-    "wordCount": "1770",
+    "wordCount": "1671",
     "datePublished": "2019-09-07T05:48:44\x2b08:00",
     "dateModified": "2019-09-07T05:48:44\x2b08:00",
     "author": {
@@ -331,14 +331,14 @@ CS.temp.2018.details</code></pre></div>
 <div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r">ggplot<span class="p">(</span>data<span class="o">=</span>CS.temp.2018<span class="p">)</span> <span class="o">+</span>
     aes<span class="p">(</span>x<span class="o">=</span>Temperature<span class="p">)</span> <span class="o">+</span>
     geom_density<span class="p">(</span>fill<span class="o">=</span><span class="s">&#34;blue&#34;</span><span class="p">,</span> color<span class="o">=</span><span class="s">&#34;blue&#34;</span><span class="p">,</span> alpha<span class="o">=</span><span class="m">.5</span><span class="p">)</span></code></pre></div>
-<p><img src="unnamed-chunk-7-1.png" alt="" /></p>
+<p><img src="cold_storage_milk_quality_wk7_problem_2_files/figure-markdown_github/unnamed-chunk-7-1.png" alt="" /></p>
 
 <hr />
 
 <h3 id="1-6-visualise-the-normality-with-qq-plot">1.6 Visualise the normality with QQ plot.</h3>
 <div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r">qqnorm<span class="p">(</span>CS.temp.2018<span class="o">$</span>Temperature<span class="p">,</span> pch<span class="o">=</span><span class="m">1</span><span class="p">,</span> frame<span class="o">=</span><span class="kc">FALSE</span><span class="p">)</span>
 qqline<span class="p">(</span>CS.temp.2018<span class="o">$</span>Temperature<span class="p">,</span> lwd<span class="o">=</span><span class="m">2</span><span class="p">)</span></code></pre></div>
-<p><img src="unnamed-chunk-8-1.png" alt="" /></p>
+<p><img src="cold_storage_milk_quality_wk7_problem_2_files/figure-markdown_github/unnamed-chunk-8-1.png" alt="" /></p>
 
 <hr />
 
@@ -347,7 +347,7 @@ qqline<span class="p">(</span>CS.temp.2018<span class="o">$</span>Temperature<sp
     aes<span class="p">(</span>x<span class="o">=</span>Month<span class="p">,</span> y<span class="o">=</span>Temperature<span class="p">)</span> <span class="o">+</span>
     geom_boxplot<span class="p">()</span> <span class="o">+</span> 
     geom_hline<span class="p">(</span>yintercept<span class="o">=</span><span class="m">3.9</span><span class="p">,</span> color<span class="o">=</span><span class="s">&#34;red&#34;</span><span class="p">,</span> alpha<span class="o">=</span><span class="m">.5</span><span class="p">)</span></code></pre></div>
-<p><img src="unnamed-chunk-9-1.png" alt="" /></p>
+<p><img src="cold_storage_milk_quality_wk7_problem_2_files/figure-markdown_github/unnamed-chunk-9-1.png" alt="" /></p>
 
 <hr />
 
@@ -424,35 +424,31 @@ assumption, so I will not remove the outlier.</p>
 
 <h3 id="2-1-perform-one-sample-t-test">2.1 Perform one-sample t-test.</h3>
 
-<p><strong>Null hypothesis:</strong> mu(Temperature) &gt;= 3.9</p>
+<p><strong>Null hypothesis:</strong> mu(Temperature) &lt;= 3.9</p>
 
-<p><strong>Alternative hypothesis:</strong> mu(Temperature) &lt; 3.9</p>
+<p><strong>Alternative hypothesis:</strong> mu(Temperature) &gt; 3.9</p>
 
-<hr />
+<p><strong>Significant level:</strong> 0.1</p>
 
-<p>This is my reason for the null hypothesis. Cold Storage wants to ensure
-that the milk temperature is significantly lower than 3.9°C in order to
-be vigilant. The reason Cold Storage sets a very low alpha value at 0.01
-(lower than the usual 0.05) is to make it harder to reject the null
-hypothesis. If a significant result shown, that means we have stronger
-confidence to say that the milk temperature is significantly lower than
-3.9°C, which is what Cold Storage wants in order to be vigilant. Hence,
-the null hypothesis cannot be mu(Temperature) &lt;= 3.9°C because that
-will make it harder to reject the null hypothesis, which makes us think
-that the temperature doesn’t exceed 3.9°C when in fact it’s due to high
-significant level (high TYPE 2 error). This is against the intention of
-Cold Storage.</p>
+<p>Cold Storage wants to ensure that the milk temperature is not
+significantly greater than 3.9°C in order to be vigilant. The reason
+Cold Storage sets a high alpha value at 0.1 (higher than the usual 0.05)
+is to make it easier to reject the null hypothesis. If no significant
+result shown, that means we have stronger confidence to say that the
+milk temperature is significantly lower than 3.9°C, which is what Cold
+Storage wants in order to be vigilant, although the TYPE 1 error becomes
+higher,</p>
 
 <p>Since a medium proportion of the temperature actually exceeds 3.9°C, the
-null hypothesis will most likely not be rejected. Nevertheless, I will
-move on to testing.</p>
+null hypothesis will most likely be rejected. Nevertheless, I will move
+on to testing.</p>
 
 <hr />
 
 <h4 id="2-1-1-applying-boxcox-transformation">2.1.1 Applying BoxCox Transformation.</h4>
 <div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r"><span class="c1"># Find the optimal lambda for transformation. </span>
 bc <span class="o">=</span> boxcox<span class="p">(</span>Temperature <span class="o">~</span> Month<span class="p">,</span> data<span class="o">=</span>CS.temp.2018<span class="p">,</span> na.action<span class="o">=</span>na.omit<span class="p">,</span> lambda<span class="o">=</span><span class="kp">seq</span><span class="p">(</span><span class="m">-30</span><span class="p">,</span><span class="m">30</span><span class="p">))</span> </code></pre></div>
-<p><img src="unnamed-chunk-10-1.png" alt="" /></p>
+<p><img src="cold_storage_milk_quality_wk7_problem_2_files/figure-markdown_github/unnamed-chunk-10-1.png" alt="" /></p>
 <div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r">best.bc.lambda <span class="o">=</span> bc<span class="o">$</span>x<span class="p">[</span>bc<span class="o">$</span>y <span class="o">==</span> <span class="kp">max</span><span class="p">(</span>bc<span class="o">$</span>y<span class="p">)]</span>
 best.bc.lambda</code></pre></div>
 <pre><code>## [1] -12.42424
@@ -468,7 +464,7 @@ best.bc.lambda</code></pre></div>
 <div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r">ggplot<span class="p">(</span>data<span class="o">=</span>CS.temp.2018<span class="p">)</span> <span class="o">+</span>
     aes<span class="p">(</span>x<span class="o">=</span>Temperature<span class="o">^</span>best.bc.lambda<span class="p">)</span> <span class="o">+</span>
     geom_density<span class="p">(</span>fill<span class="o">=</span><span class="s">&#34;blue&#34;</span><span class="p">,</span> color<span class="o">=</span><span class="s">&#34;blue&#34;</span><span class="p">,</span> alpha<span class="o">=</span><span class="m">.5</span><span class="p">)</span></code></pre></div>
-<p><img src="unnamed-chunk-11-1.png" alt="" /></p>
+<p><img src="cold_storage_milk_quality_wk7_problem_2_files/figure-markdown_github/unnamed-chunk-11-1.png" alt="" /></p>
 
 <hr />
 
@@ -528,23 +524,23 @@ so the alternative will be greater than, not less than.</p>
 
 <p><strong>The hypothesis for one-sample t-test after BoxCox Transformation:</strong></p>
 
-<p><strong>Null hypothesis:</strong> mu(exponential(Temperature, -12.4)) &lt;= 4.534e-08</p>
+<p><strong>Null hypothesis:</strong> mu(exponential(Temperature, -12.4)) &gt;= 4.534e-08</p>
 
-<p><strong>Alternative hypothesis:</strong> mu(exponential(Temperature, -12.4)) &gt;
+<p><strong>Alternative hypothesis:</strong> mu(exponential(Temperature, -12.4)) &lt;
 4.534e-08</p>
 
-<hr />
+<p><strong>Significant level:</strong> 0.1</p>
 <div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r"><span class="c1"># Perform t-test on the transformed temperature data. </span>
 <span class="c1"># Indicate less than as alternative due to inverse transformation. </span>
-t.test<span class="p">(</span>x<span class="o">=</span>CS.temp.2018<span class="o">$</span>Temperature<span class="o">^</span>best.bc.lambda<span class="p">,</span> mu<span class="o">=</span><span class="m">3.9</span><span class="o">^</span>best.bc.lambda<span class="p">,</span> alternative<span class="o">=</span><span class="s">&#34;greater&#34;</span><span class="p">,</span> conf.level<span class="o">=</span><span class="m">0.99</span><span class="p">,</span> paired<span class="o">=</span><span class="kc">FALSE</span><span class="p">)</span></code></pre></div>
+t.test<span class="p">(</span>x<span class="o">=</span>CS.temp.2018<span class="o">$</span>Temperature<span class="o">^</span>best.bc.lambda<span class="p">,</span> mu<span class="o">=</span><span class="m">3.9</span><span class="o">^</span>best.bc.lambda<span class="p">,</span> alternative<span class="o">=</span><span class="s">&#34;less&#34;</span><span class="p">,</span> conf.level<span class="o">=</span><span class="m">0.90</span><span class="p">,</span> paired<span class="o">=</span><span class="kc">FALSE</span><span class="p">)</span></code></pre></div>
 <pre><code>## 
 ##  One Sample t-test
 ## 
 ## data:  CS.temp.2018$Temperature^best.bc.lambda
-## t = -2.2528, df = 34, p-value = 0.9846
-## alternative hypothesis: true mean is greater than 4.53388e-08
-## 99 percent confidence interval:
-##  3.352081e-08          Inf
+## t = -2.2528, df = 34, p-value = 0.01542
+## alternative hypothesis: true mean is less than 4.53388e-08
+## 90 percent confidence interval:
+##          -Inf 4.295747e-08
 ## sample estimates:
 ##    mean of x 
 ## 3.966693e-08
@@ -554,23 +550,25 @@ t.test<span class="p">(</span>x<span class="o">=</span>CS.temp.2018<span class="
 
 <h3 id="2-2-perform-one-sample-wilcoxon-test">2.2 Perform one-sample Wilcoxon test.</h3>
 
-<p><strong>Null hypothesis:</strong> median(Temperature) &gt;= 3.9</p>
+<p><strong>Null hypothesis:</strong> median(Temperature) &lt;= 3.9</p>
 
-<p><strong>Alternative hypothesis:</strong> median(Temperature) &lt; 3.9</p>
+<p><strong>Alternative hypothesis:</strong> median(Temperature) &gt; 3.9</p>
+
+<p><strong>Significant level:</strong> 0.1</p>
 <div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r">wilcox.test<span class="p">(</span>CS.temp.2018<span class="o">$</span>Temperature<span class="p">,</span> mu<span class="o">=</span><span class="m">3.9</span><span class="p">,</span> 
-            alternative<span class="o">=</span><span class="s">&#34;less&#34;</span><span class="p">,</span> paired<span class="o">=</span><span class="kc">FALSE</span><span class="p">,</span> conf.level<span class="o">=</span><span class="m">.99</span><span class="p">,</span> correct<span class="o">=</span><span class="kc">TRUE</span><span class="p">)</span> </code></pre></div>
+            alternative<span class="o">=</span><span class="s">&#34;greater&#34;</span><span class="p">,</span> paired<span class="o">=</span><span class="kc">FALSE</span><span class="p">,</span> conf.level<span class="o">=</span><span class="m">.90</span><span class="p">,</span> correct<span class="o">=</span><span class="kc">TRUE</span><span class="p">)</span> </code></pre></div>
 <pre><code>## Warning in wilcox.test.default(CS.temp.2018$Temperature, mu = 3.9, alternative =
-## &quot;less&quot;, : cannot compute exact p-value with ties
+## &quot;greater&quot;, : cannot compute exact p-value with ties
 
 ## Warning in wilcox.test.default(CS.temp.2018$Temperature, mu = 3.9, alternative =
-## &quot;less&quot;, : cannot compute exact p-value with zeroes
+## &quot;greater&quot;, : cannot compute exact p-value with zeroes
 
 ## 
 ##  Wilcoxon signed rank test with continuity correction
 ## 
 ## data:  CS.temp.2018$Temperature
-## V = 195, p-value = 0.9977
-## alternative hypothesis: true location is less than 3.9
+## V = 195, p-value = 0.002515
+## alternative hypothesis: true location is greater than 3.9
 </code></pre>
 
 <hr />
@@ -579,10 +577,14 @@ t.test<span class="p">(</span>x<span class="o">=</span>CS.temp.2018<span class="
 
 <p><strong>Findings from section 2.1 and 2.2:</strong></p>
 
-<p>Both of the test results fail to reject the null hypothesis due to very
-high p-values, which suggests that the mean and median temperature is
-greater than 3.9°C. Hence, it seems to suggest that Cold Storage Plant
-should amend their maintenance system.</p>
+<ol>
+<li>T-test has <strong>0.015 p-value</strong>.</li>
+<li>Wilcoxon test has <strong>0.002 p-value</strong>.</li>
+</ol>
+
+<p>Both of the test results <strong>reject the null hypothesis due to low p-values</strong>,
+which suggests that the <strong>mean and median temperature is greater than 3.9°C</strong>.
+Hence, it seems to suggest that <strong>Cold Storage Plant should amend their maintenance system</strong>.</p>
 
 <p>However, the result from the t-test is less reliable due to non-normal
 distribution. To resolve this, we can collect a larger sample size of
@@ -602,16 +604,11 @@ thus avoid the ties.</p>
 <p>In conclusion, based on the test results above, it seems that Cold
 Storage Plant is responsible for the cause. If we want to get an
 accurate test result, we can either increase the sample size or retrieve
-the temperature data in continuous values. Although the test violates
-the required conditions, however due to high p-value, I believe the
-tests will still be non-significant even after we redo the tests in
-proper conditions.</p>
+the temperature data in continuous values.</p>
 
 <hr />
 
 <h2 id="4-notes-for-future-reference">4. Notes for future reference.</h2>
-
-<p>Latest update: <strong>2020/01/31</strong></p>
 
 <p><strong>List of things to take note:</strong></p>
 
@@ -620,9 +617,6 @@ proper conditions.</p>
 less reliable.</li>
 <li>Ties issue for the one-sample Wilcoxon test isn’t addressed, so the
 result is less reliable.</li>
-<li>The p-value for both t-test and wilcoxon test are very high, so I
-believe the tests will still be non-significant even after we redo
-the tests in proper conditions.</li>
 </ol>
 
     </div>
