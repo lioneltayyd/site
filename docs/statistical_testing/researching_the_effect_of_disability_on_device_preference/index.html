@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        
+
+    <script type="application/ld+json">
+
+    {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Researching The Effect Of Disability On Device Preference.",
+    "url": "https:\/\/lionelcub.github.io\/site\/statistical_testing\/researching_the_effect_of_disability_on_device_preference\/",
+    "wordCount": "1939",
+    "datePublished": "2019-09-07T05:48:44\x2b08:00",
+    "dateModified": "2019-09-07T05:48:44\x2b08:00",
+    "author": {
+        "@type": "Person",
+        "name": "Lionel Tay"
+    }
+    }
+
+    </script> 
+
+
+
+        <title>
+    Researching The Effect Of Disability On Device Preference.
+</title>
+
+
+        
+        <meta property="og:title" content="Researching The Effect Of Disability On Device Preference." />
+<meta property="og:description" content="" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://lionelcub.github.io/site/statistical_testing/researching_the_effect_of_disability_on_device_preference/" />
+<meta property="article:published_time" content="2019-09-07T05:48:44&#43;08:00"/>
+<meta property="article:modified_time" content="2019-09-07T05:48:44&#43;08:00"/>
+
+        <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Researching The Effect Of Disability On Device Preference."/>
+<meta name="twitter:description" content=""/>
+<meta name="generator" content="Hugo 0.55.6" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+        <meta charset="UTF-8">
+        <meta name="author" content=""/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        
+        <meta name="description" content=""/>
+        
+
+
+        
+        <link 
+            rel="stylesheet" 
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+            crossorigin="anonymous">
+        
+
+        
+        <script src="https://kit.fontawesome.com/c14bcac617.js"></script>
+
+        
+
+        
+        
+        <link href="https://lionelcub.github.io/site/css/custom.css" rel="stylesheet">
+        <link href="https://lionelcub.github.io/site/css/syntax.css" rel="stylesheet">
+
+
+        
+        <link 
+            href="https://fonts.googleapis.com/css?family=Martel:400,600,700|Montserrat:300,400,500,600,700|Muli:300,300i,400,400i,600,600i,700,700i,800,900|PT+Serif:400,400i,700,700i|Cutive+Mono|PT+Mono&display=swap&subset=latin-ext" 
+            rel="stylesheet">
+        
+
+
+        
+        <script 
+    type="text/javascript"
+    src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' 
+    async>
+</script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[','\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre','code'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+</script>
+
+
+        
+        
+
+    </head>
+
+    <body>
+
+        
+        <nav class="navbar navbar-expand-sm fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="https://lionelcub.github.io/site/">Lionel Tay</a>
+                <button 
+                    class="navbar-toggler" 
+                    type="button" 
+                    data-toggle="collapse" 
+                    data-target="#navbarSupportedContent" 
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">   
+                    <ul class="nav navbar-nav mr-auto"></ul>
+                    <ul class="navbar-nav">
+
+                        <li class="nav-item dropdown">
+                            <a 
+                                class="nav-link dropdown-toggle" 
+                                href="#" 
+                                id="navbarDropdown" 
+                                role="button" 
+                                data-toggle="dropdown" 
+                                aria-haspopup="true"
+                                aria-expanded="false">
+                                About
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="https://lionelcub.github.io/site/about/about_me/">About Me</a>
+                                <a class="dropdown-item" href="https://github.com/lionelcub">GitHub</a>
+                                <a class="dropdown-item" href="https://www.linkedin.com/in/lioneltyd">LinkedIn</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a 
+                                class="nav-link dropdown-toggle" 
+                                href="#" 
+                                id="navbarDropdown" 
+                                role="button" 
+                                data-toggle="dropdown" 
+                                aria-haspopup="true"
+                                aria-expanded="false">
+                                Projects
+                            </a>
+
+                            <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="https://lionelcub.github.io/site//domain/customer_analysis">Applied Domain</a>
+                                <a class="dropdown-item" href="https://lionelcub.github.io/site/statistical_testing">Statistical Testing</a>
+                                <a class="dropdown-item" href="https://lionelcub.github.io/site/analysis_and_visualisation">Analysis & Visualisation</a>
+                                <a class="dropdown-item" href="https://lionelcub.github.io/site/machine_learning">Machine Learning</a>
+                                <a class="dropdown-item" href="https://lionelcub.github.io/site/working_with_big_data">Working With Big Data</a>
+                                <a class="dropdown-item" href="https://lionelcub.github.io/site/data_collecting">Data Collecting</a>
+                                <a class="dropdown-item" href="https://lionelcub.github.io/site/building_data_pipeline">Building Data Pipeline</a>
+                                <a class="dropdown-item" href="https://lionelcub.github.io/site/building_database">Building Database</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://lionelcub.github.io/site/notes">Notes</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://lionelcub.github.io/site/blog">Blog</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+
+
+        
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+        
+                     
+
+
+<article>
+  <div class="technical_note">
+    
+    
+
+    
+
+    
+
+    <div class="content">    
+      
+
+<h1 id="researching-the-effect-of-disability-on-device-preference">Researching The Effect Of Disability On Device Preference.</h1>
+
+<hr />
+
+<h2 id="project-purpose">Project purpose.</h2>
+
+<p>The user research team conducted an experiment design to find out
+whether <strong>disability has an effect on the device preference</strong>. There are
+two groups of users, one with disability and another without. They were
+asked to use two different devices, touchpads and trackballs as computer
+input devices, and pick their preference. Now that the data is
+collected, the objective is to <strong>conduct a statistical testing to see
+whether disability has a signifcant effect on device preference</strong>.</p>
+
+<p><strong>Assumptions about the dataset:</strong></p>
+
+<ol>
+<li>The experiment is with well-controlled and conducted appropriately
+by the user research team.</li>
+<li>The samples represent the population with proper stratification and
+sampling method.</li>
+<li>The user research team follows a appropriate procedure when
+conducting the experiment.</li>
+</ol>
+
+<hr />
+
+<h2 id="1-explore-and-familiarise-with-the-dataset">1 Explore and familiarise with the dataset.</h2>
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r">df.device <span class="o">=</span> read_csv<span class="p">(</span><span class="s">&#34;csv/deviceprefs.csv&#34;</span><span class="p">)</span></code></pre></div>
+<pre><code>## Parsed with column specification:
+## cols(
+##   Subject = col_double(),
+##   Disability = col_double(),
+##   Pref = col_character()
+## )
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r">df.device</code></pre></div>
+<pre><code>## # A tibble: 30 x 3
+##    Subject Disability Pref     
+##      &lt;dbl&gt;      &lt;dbl&gt; &lt;chr&gt;    
+##  1       1          1 trackball
+##  2       2          1 touchpad 
+##  3       3          0 touchpad 
+##  4       4          0 trackball
+##  5       5          1 touchpad 
+##  6       6          0 touchpad 
+##  7       7          0 touchpad 
+##  8       8          0 touchpad 
+##  9       9          1 trackball
+## 10      10          1 trackball
+## # … with 20 more rows
+</code></pre>
+
+<hr />
+
+<h3 id="1-1-summarise-of-the-dataset">1.1 Summarise of the dataset.</h3>
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r"><span class="c1"># Transform dtype. </span>
+df.device<span class="o">$</span>Pref <span class="o">=</span> <span class="kp">factor</span><span class="p">(</span>df.device<span class="o">$</span>Pref<span class="p">)</span>
+df.device<span class="o">$</span>Disability <span class="o">=</span> <span class="kp">factor</span><span class="p">(</span>df.device<span class="o">$</span>Disability<span class="p">)</span>
+
+<span class="c1"># Summarise the dataset.</span>
+<span class="kp">summary</span><span class="p">(</span>df.device<span class="p">)</span></code></pre></div>
+<pre><code>##     Subject      Disability        Pref   
+##  Min.   : 1.00   0:18       touchpad :21  
+##  1st Qu.: 8.25   1:12       trackball: 9  
+##  Median :15.50                            
+##  Mean   :15.50                            
+##  3rd Qu.:22.75                            
+##  Max.   :30.00
+</code></pre>
+
+<hr />
+
+<h3 id="1-2-check-the-detail-of-the-dataset">1.2 Check the detail of the dataset.</h3>
+
+<p><strong>The overview includes the following:</strong></p>
+
+<ol>
+<li>Check the proportion of nulls.</li>
+<li>Check if there’s any duplicated rows.</li>
+</ol>
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r">dataset_detail <span class="o">=</span> <span class="kr">function</span><span class="p">(</span>df<span class="p">)</span> <span class="p">{</span>
+    na_count <span class="o">=</span> <span class="kp">colSums</span><span class="p">(</span><span class="kp">is.na</span><span class="p">(</span>df<span class="p">))</span>
+    
+    <span class="c1"># Details. </span>
+    nulls_proportion <span class="o">=</span> na_count <span class="o">/</span> <span class="kp">nrow</span><span class="p">(</span>df<span class="p">)</span> <span class="o">*</span> <span class="m">100</span>
+    duplicated_nrows <span class="o">=</span> <span class="kp">nrow</span><span class="p">(</span><span class="kp">which</span><span class="p">(</span><span class="kp">duplicated</span><span class="p">(</span>df<span class="p">)))</span>
+    
+    details <span class="o">=</span> <span class="kt">list</span><span class="p">(</span>nulls_proportion<span class="p">,</span> duplicated_nrows<span class="p">)</span>
+    <span class="kp">names</span><span class="p">(</span>details<span class="p">)</span> <span class="o">=</span> <span class="kt">c</span><span class="p">(</span><span class="s">&#34;nulls_proportion&#34;</span><span class="p">,</span> <span class="s">&#34;duplicated_nrows&#34;</span><span class="p">)</span>
+    <span class="kr">return</span><span class="p">(</span>details<span class="p">)</span>
+<span class="p">}</span>
+    
+df.device.details <span class="o">=</span> dataset_detail<span class="p">(</span>df.device<span class="p">)</span>
+df.device.details</code></pre></div>
+<pre><code>## $nulls_proportion
+##    Subject Disability       Pref 
+##          0          0          0 
+## 
+## $duplicated_nrows
+## NULL
+</code></pre>
+
+<hr />
+
+<h3 id="1-3-create-a-contigency-table-on-pref-variable">1.3 Create a contigency table on ‘Pref’ variable.</h3>
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r">table.pref <span class="o">=</span> xtabs<span class="p">(</span><span class="o">~</span> Pref<span class="p">,</span> data<span class="o">=</span>df.device<span class="p">)</span>
+table.pref </code></pre></div>
+<pre><code>## Pref
+##  touchpad trackball 
+##        21         9
+</code></pre>
+
+<hr />
+
+<h3 id="1-4-visualise-the-table-on-pref-variable">1.4 Visualise the table on ‘Pref’ variable.</h3>
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r">barplot<span class="p">(</span>table.pref<span class="p">,</span> col<span class="o">=</span><span class="s">&#39;blue&#39;</span><span class="p">)</span></code></pre></div>
+<p><img src="unnamed-chunk-5-1.png" alt="" /></p>
+
+<hr />
+
+<h3 id="1-5-create-a-contigency-table-on-pref-variable-based-on-disability">1.5 Create a contigency table on ‘Pref’ variable based on ‘Disability’.</h3>
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r">table.pref.disability <span class="o">=</span> xtabs<span class="p">(</span><span class="o">~</span> Pref <span class="o">+</span> Disability<span class="p">,</span> data<span class="o">=</span>df.device<span class="p">)</span> 
+table.pref.disability</code></pre></div>
+<pre><code>##            Disability
+## Pref         0  1
+##   touchpad  16  5
+##   trackball  2  7
+</code></pre>
+
+<hr />
+
+<h3 id="1-6-visualise-the-table-on-pref-variable-based-on-disability">1.6 Visualise the table on ‘Pref’ variable based on ‘Disability’.</h3>
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r">barplot<span class="p">(</span>table.pref.disability<span class="p">,</span> col<span class="o">=</span><span class="kt">c</span><span class="p">(</span><span class="s">&#39;pink&#39;</span><span class="p">,</span> <span class="s">&#39;blue&#39;</span><span class="p">),</span> legend<span class="o">=</span><span class="kp">rownames</span><span class="p">(</span>table.pref.disability<span class="p">),</span> beside<span class="o">=</span><span class="kc">TRUE</span><span class="p">)</span></code></pre></div>
+<p><img src="unnamed-chunk-7-1.png" alt="" /></p>
+
+<hr />
+
+<h3 id="1-7-summary-for-data-exploration">1.7 Summary for data exploration.</h3>
+
+<p><strong>Findings from section 1.1:</strong></p>
+
+<ol>
+<li>There are <strong>30 subjects</strong> altogether.</li>
+<li>There are <strong>18 non-disabled users</strong> and <strong>12 disabled users</strong>. The
+data is slighly imbalance.</li>
+</ol>
+
+<p><strong>Findings from section 1.2:</strong></p>
+
+<ol>
+<li>The dataset has no null row.</li>
+<li>The dataset has no duplicated row.</li>
+</ol>
+
+<p><strong>Findings from section 1.3 to 1.6:</strong></p>
+
+<ol>
+<li><strong>21 users</strong> prefer touchpad and <strong>9 users</strong> prefer trackball. It
+looks like there is a significant difference between the device
+preferences.</li>
+<li>It looks like <strong>non-disabled users prefer touchpad over trackball</strong>,
+whereas <strong>disabled users show no significant preference</strong> toward
+either device.</li>
+</ol>
+
+<hr />
+
+<p><strong>Next steps:</strong></p>
+
+<p>The data is based on proportion, thus I will perform proportion tests. I
+will first test the <code>Pref</code> variable to see if the users generally prefer
+one device over the other. There are a few testing methods for
+proportion, however, I will go with these common methods:</p>
+
+<ol>
+<li>One-sample proportion test.</li>
+<li>Binomial test.</li>
+</ol>
+
+<p><strong>The tests above must satisfy the following conditions:</strong></p>
+
+<ol>
+<li>The expected value of the number of sample observations in each
+level of the variable is at least 5.</li>
+<li>The proportion must be independent.</li>
+</ol>
+
+<hr />
+
+<h2 id="2-perform-one-sample-test-on-device-preference">2 Perform one-sample test on device preference.</h2>
+
+<h3 id="2-1-perform-one-sample-proportion-test">2.1 Perform One-sample proportion test.</h3>
+
+<p><strong>Null hypothesis:</strong> P(Trackpad) = P(Trackball)</p>
+
+<p><strong>Alternative hypothesis:</strong> P(Trackpad) ≠ P(Trackball)</p>
+
+<p><strong>Significant level:</strong> 0.05</p>
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r"><span class="c1"># Contigency table.</span>
+table.pref</code></pre></div>
+<pre><code>## Pref
+##  touchpad trackball 
+##        21         9
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r">prop.result <span class="o">=</span> prop.test<span class="p">(</span>table.pref<span class="p">,</span> p<span class="o">=</span><span class="m">0.5</span><span class="p">)</span>
+prop.result</code></pre></div>
+<pre><code>## 
+##  1-sample proportions test with continuity correction
+## 
+## data:  table.pref, null probability 0.5
+## X-squared = 4.0333, df = 1, p-value = 0.04461
+## alternative hypothesis: true p is not equal to 0.5
+## 95 percent confidence interval:
+##  0.5044209 0.8458720
+## sample estimates:
+##   p 
+## 0.7
+</code></pre>
+
+<hr />
+
+<h3 id="2-2-perform-binomial-test">2.2. Perform Binomial test.</h3>
+
+<p><strong>Null hypothesis:</strong> P(touchpad) = P(Trackball)</p>
+
+<p><strong>Alternative hypothesis:</strong> P(touchpad) ≠ P(Trackball)</p>
+
+<p><strong>Significant level:</strong> 0.05</p>
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r">binom.test<span class="p">(</span>table.pref<span class="p">,</span> p<span class="o">=</span><span class="m">0.5</span><span class="p">)</span> </code></pre></div>
+<pre><code>## 
+##  Exact binomial test
+## 
+## data:  table.pref
+## number of successes = 21, number of trials = 30, p-value = 0.04277
+## alternative hypothesis: true probability of success is not equal to 0.5
+## 95 percent confidence interval:
+##  0.5060410 0.8526548
+## sample estimates:
+## probability of success 
+##                    0.7
+</code></pre>
+
+<hr />
+
+<h3 id="2-3-summary-on-one-sample-test">2.3 Summary on one-sample test.</h3>
+
+<p>The results show that there is a significant different between the
+proportion of device preference with a <strong>borderline p-value of 0.04</strong>,
+with a confidence level of 95%. <strong>70% of the users</strong> prefer touchpad
+over trackball.</p>
+
+<p>Moving on to two-sample test.</p>
+
+<hr />
+
+<h2 id="3-perform-two-sample-test-on-device-preference-with-disability-variable">3 Perform two-sample test on device preference with ‘disability’ variable.</h2>
+
+<p>These are the testing methods I will implement:</p>
+
+<ol>
+<li>Chi-Square test.</li>
+<li>G test.</li>
+<li>Fisher test.</li>
+</ol>
+
+<p><strong>The tests above must satisfy the following conditions:</strong></p>
+
+<ol>
+<li>The expected value of the number of sample observations in each
+level of the variable is at least 5.</li>
+<li>The proportion must be independent.</li>
+</ol>
+
+<p>Note that Chi-Square and G test are based on asymptotic distribution,
+meaning the p-value will only be an approximation, not exact. This can
+be resolved by increasing the sample size. I will perform the test and
+see whether there is any reliability issue raised when implementing the
+tests although Chi-Square most likely will. Otherwise, I will go with
+the result from Fisher test.</p>
+
+<hr />
+
+<h3 id="3-1-perform-chi-square-test">3.1 Perform Chi-Square test.</h3>
+
+<p><strong>Null hypothesis:</strong> Preference is independent of disability variable.</p>
+
+<p><strong>Alternative hypothesis:</strong> Preference is dependent of disability
+variable.</p>
+
+<p><strong>Significant level:</strong> 0.05</p>
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r"><span class="c1"># Contigency table.</span>
+table.pref.disability</code></pre></div>
+<pre><code>##            Disability
+## Pref         0  1
+##   touchpad  16  5
+##   trackball  2  7
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r">chisq.result <span class="o">=</span> chisq.test<span class="p">(</span>table.pref.disability<span class="p">)</span></code></pre></div>
+<pre><code>## Warning in chisq.test(table.pref.disability): Chi-squared approximation may be
+## incorrect
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r">chisq.result</code></pre></div>
+<pre><code>## 
+##  Pearson's Chi-squared test with Yates' continuity correction
+## 
+## data:  table.pref.disability
+## X-squared = 5.5622, df = 1, p-value = 0.01835
+</code></pre>
+
+<hr />
+
+<h4 id="3-1-1-check-whether-the-expected-values-in-the-table-are-at-least-5">3.1.1 Check whether the expected values in the table are at least 5.</h4>
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r">chisq.result<span class="o">$</span>expected</code></pre></div>
+<pre><code>##            Disability
+## Pref           0   1
+##   touchpad  12.6 8.4
+##   trackball  5.4 3.6
+</code></pre>
+
+<hr />
+
+<h3 id="3-2-perform-g-test">3.2 Perform G test.</h3>
+
+<p><strong>Null hypothesis:</strong> Preference is independent of disability variable.</p>
+
+<p><strong>Alternative hypothesis:</strong> Preference is dependent of disability
+variable.</p>
+
+<p><strong>Significant level:</strong> 0.05</p>
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r"><span class="kn">library</span><span class="p">(</span>RVAideMemoire<span class="p">)</span></code></pre></div>
+<pre><code>## *** Package RVAideMemoire v 0.9-73 ***
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r">G.test<span class="p">(</span>table.pref.disability<span class="p">)</span></code></pre></div>
+<pre><code>## 
+##  G-test
+## 
+## data:  table.pref.disability
+## G = 7.7933, df = 1, p-value = 0.005244
+</code></pre>
+
+<hr />
+
+<h3 id="3-3-perform-fisher-exact-test">3.3 Perform Fisher Exact test.</h3>
+
+<p><strong>Null hypothesis:</strong> Preference is independent of disability variable.</p>
+
+<p><strong>Alternative hypothesis:</strong> Preference is dependent of disability
+variable.</p>
+
+<p><strong>Significant level:</strong> 0.05</p>
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r">fisher.test<span class="p">(</span>table.pref.disability<span class="p">)</span></code></pre></div>
+<pre><code>## 
+##  Fisher's Exact Test for Count Data
+## 
+## data:  table.pref.disability
+## p-value = 0.01251
+## alternative hypothesis: true odds ratio is not equal to 1
+## 95 percent confidence interval:
+##    1.365946 131.289256
+## sample estimates:
+## odds ratio 
+##   10.13342
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r">chisq.result<span class="o">$</span>expected <span class="o">/</span> <span class="m">30</span></code></pre></div>
+<pre><code>##            Disability
+## Pref           0    1
+##   touchpad  0.42 0.28
+##   trackball 0.18 0.12
+</code></pre>
+
+<hr />
+
+<h3 id="3-4-summary-on-two-sample-test">3.4 Summary on two-sample test.</h3>
+
+<p><strong>Findings:</strong></p>
+
+<ol>
+<li>The Chi-Square test <strong>raised a warning</strong> regarding the approximation
+issue, although the result is significant with a <strong>p-value of
+0.018</strong>.</li>
+<li>G test shows a significant result with a <strong>p-value of 0.005</strong>.</li>
+<li>Fisher Exact test also shows a significant result with a <strong>p-value
+of 0.013</strong>.</li>
+</ol>
+
+<p><strong>All tests reject the null hypothesis</strong>, but I will go with <strong>G test</strong>
+and <strong>Fisher Exact test</strong> instead since Chi-Square test encounters an
+issue. I will conduct a post-hoc test on each device based on
+<code>Disability</code> variable to see whether there is a significant difference
+between each device for disabled and non-disabled users.</p>
+
+<hr />
+
+<h2 id="4-perform-post-hoc-binomial-test">4 Perform post-hoc binomial test.</h2>
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r"><span class="c1"># Non-disabled users on touchpad.</span>
+binom.test<span class="p">(</span>x<span class="o">=</span><span class="kp">sum</span><span class="p">(</span>df.device<span class="p">[</span>df.device<span class="o">$</span>Disability <span class="o">==</span> <span class="m">0</span><span class="p">,</span> <span class="p">]</span><span class="o">$</span>Pref <span class="o">==</span> <span class="s">&#34;touchpad&#34;</span><span class="p">),</span> n<span class="o">=</span><span class="kp">sum</span><span class="p">(</span>df.device<span class="o">$</span>Disability <span class="o">==</span> <span class="m">0</span><span class="p">),</span> p<span class="o">=</span><span class="m">1</span><span class="o">/</span><span class="m">2</span><span class="p">,</span> 
+           alternative<span class="o">=</span><span class="s">&#39;two.sided&#39;</span><span class="p">,</span> conf.level<span class="o">=</span><span class="m">0.95</span><span class="p">)</span></code></pre></div>
+<pre><code>## 
+##  Exact binomial test
+## 
+## data:  sum(df.device[df.device$Disability == 0, ]$Pref == &quot;touchpad&quot;) and sum(df.device$Disability == 0)
+## number of successes = 16, number of trials = 18, p-value = 0.001312
+## alternative hypothesis: true probability of success is not equal to 0.5
+## 95 percent confidence interval:
+##  0.6528796 0.9862488
+## sample estimates:
+## probability of success 
+##              0.8888889
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r"><span class="c1"># Disabled users on touchpad.</span>
+binom.test<span class="p">(</span>x<span class="o">=</span><span class="kp">sum</span><span class="p">(</span>df.device<span class="p">[</span>df.device<span class="o">$</span>Disability <span class="o">==</span> <span class="m">1</span><span class="p">,</span> <span class="p">]</span><span class="o">$</span>Pref <span class="o">==</span> <span class="s">&#34;touchpad&#34;</span><span class="p">),</span> n<span class="o">=</span><span class="kp">sum</span><span class="p">(</span>df.device<span class="o">$</span>Disability <span class="o">==</span> <span class="m">1</span><span class="p">),</span> p<span class="o">=</span><span class="m">1</span><span class="o">/</span><span class="m">2</span><span class="p">,</span> 
+           alternative<span class="o">=</span><span class="s">&#39;two.sided&#39;</span><span class="p">,</span> conf.level<span class="o">=</span><span class="m">0.95</span><span class="p">)</span></code></pre></div>
+<pre><code>## 
+##  Exact binomial test
+## 
+## data:  sum(df.device[df.device$Disability == 1, ]$Pref == &quot;touchpad&quot;) and sum(df.device$Disability == 1)
+## number of successes = 5, number of trials = 12, p-value = 0.7744
+## alternative hypothesis: true probability of success is not equal to 0.5
+## 95 percent confidence interval:
+##  0.1516522 0.7233303
+## sample estimates:
+## probability of success 
+##              0.4166667
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r">barplot<span class="p">(</span>table.pref.disability<span class="p">,</span> col<span class="o">=</span><span class="kt">c</span><span class="p">(</span><span class="s">&#39;pink&#39;</span><span class="p">,</span> <span class="s">&#39;blue&#39;</span><span class="p">),</span> legend<span class="o">=</span><span class="kp">rownames</span><span class="p">(</span>table.pref.disability<span class="p">),</span> beside<span class="o">=</span><span class="kc">TRUE</span><span class="p">)</span></code></pre></div>
+<p><img src="unnamed-chunk-18-1.png" alt="" /></p>
+
+<hr />
+
+<h3 id="4-1-summary-for-post-hoc-binomial-test">4.1 Summary for post-hoc binomial test.</h3>
+
+<p>Based on the outcome from post-hoc test, there is a significant result
+showinng that non-disabled users prefer touchpad over trackball with a
+<strong>p-value of 0.001</strong>, whereas <strong>disabled users show no significant
+preference (p-value of 0.774)</strong> toward either device.</p>
+
+<hr />
+
+<h2 id="5-find-the-optimal-samples-size-for-more-effective-test">5 Find the optimal samples size for more effective test.</h2>
+
+<p>Assuming the user research team is looking for a <strong>medium effect size
+detection 0.3 to ensure the preference proportion is impactfully
+different</strong>. I can calculate the required sample size in order to
+conduct a more reliable Chi-Square test with medium effect size. Also,
+assuming the team wants to have a much higher chance of detecting the
+significant effect with a <strong>power of 95%</strong> and a <strong>significant level of
+5%</strong>.</p>
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r">cohen.ES<span class="p">(</span>test<span class="o">=</span><span class="s">&#34;chisq&#34;</span><span class="p">,</span> size<span class="o">=</span><span class="s">&#34;medium&#34;</span><span class="p">)</span></code></pre></div>
+<pre><code>## 
+##      Conventional effect size from Cohen (1982) 
+## 
+##            test = chisq
+##            size = medium
+##     effect.size = 0.3
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r">pwr.chisq.test<span class="p">(</span>w<span class="o">=</span><span class="m">0.3</span><span class="p">,</span> power<span class="o">=</span><span class="m">0.95</span><span class="p">,</span> df<span class="o">=</span><span class="m">1</span><span class="p">,</span> sig.level<span class="o">=</span><span class="m">0.05</span><span class="p">)</span></code></pre></div>
+<pre><code>## 
+##      Chi squared power calculation 
+## 
+##               w = 0.3
+##               N = 144.3857
+##              df = 1
+##       sig.level = 0.05
+##           power = 0.95
+## 
+## NOTE: N is the number of observations
+</code></pre>
+
+<hr />
+
+<p>145 sample size is too huge. It’s difficult and costly to find so many
+users to partcipate for the test. Hence, we may have to <strong>reduce the
+power to 80%</strong> and <strong>increase the effect size detection to 0.4</strong>.</p>
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r">pwr.chisq.test<span class="p">(</span>w<span class="o">=</span><span class="m">0.4</span><span class="p">,</span> power<span class="o">=</span><span class="m">0.8</span><span class="p">,</span> df<span class="o">=</span><span class="m">1</span><span class="p">,</span> sig.level<span class="o">=</span><span class="m">0.05</span><span class="p">)</span></code></pre></div>
+<pre><code>## 
+##      Chi squared power calculation 
+## 
+##               w = 0.4
+##               N = 49.05538
+##              df = 1
+##       sig.level = 0.05
+##           power = 0.8
+## 
+## NOTE: N is the number of observations
+</code></pre>
+
+<hr />
+
+<h3 id="5-1-summary-for-finding-optimal-sample-size">5.1 Summary for finding optimal sample size.</h3>
+
+<p>The result shows that user research team should gather <strong>at least 50
+users</strong> for testing to ensure a <strong>80% chance of detecting a significant
+effect</strong> with a <strong>minimum of 0.4 effect size detection</strong>.</p>
+
+<hr />
+
+<h2 id="6-conclusion">6 Conclusion.</h2>
+
+<p>We can conclude that <strong>disability seems to have dependent effect on
+device prefence</strong>. <strong>Non-disabled users generally prefer touchpad</strong>
+while <strong>disabled users have no significant preference over either
+device</strong>. We can follow up with the disabled users to find out why they
+have no particular preference over either device. However, it might also
+due to small sample size as there is only 12 disabled users conducting
+the test. Perhaps if the UX research team were to increase the sample
+size, the result might be different. If not, more reliable.</p>
+
+<p>I will say that the <strong>result for disabled users doesn’t have strong
+reliability due to small samples size</strong>. However, I can <strong>reliably say
+that non-disabled users prefer touchpad</strong>. Additionally, apart from
+taking the disability variable into account, the one-sample test result
+shows that <strong>users generally prefer touchpad</strong> with a <strong>borderline
+p-value of 0.04</strong>.</p>
+
+<hr />
+
+<h2 id="7-notes-for-future-reference">7 Notes for future reference.</h2>
+
+<p>Latest update: <strong>2020/02/05</strong></p>
+
+<p><strong>List of things to take note:</strong></p>
+
+<ul>
+<li>The sample size for disabled users is small. It might increase the
+reliability of the test if the UX research team were to increase the
+sample size.</li>
+<li>The Chi-Square result is not reliable due to incorrect
+approximation.</li>
+</ul>
+
+    </div>
+
+    
+
+  </div>
+</article>
+
+
+
+
+        
+                </div>
+            </div>
+        </div>
+
+
+        
+        <br>
+        <footer class="footer text-center">
+            <div class="container">
+                <span class="text-muted">Copyright &copy; Lionel tyd, <time datetime="2020">2020</time>.
+                    
+                </span>
+            </div>
+        </footer>
+
+
+        
+        <a id="custom_github" class="btn btn-primary btn-lg" href="https://github.com/lionelcub" role="button" title="Click to go to Gihub site" data-toggle="tooltip" data-placement="bottom">
+            <i class="fab fa-github-alt"></i>
+        </a>
+        <a id="custom_back-to-top" class="btn btn-primary btn-lg back-to-top" href="#" role="button" title="Click to return to the top page" data-toggle="tooltip" data-placement="bottom">
+            <i class="fas fa-caret-up"></i>
+        </a>
+
+
+        
+        <script 
+            src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+            crossorigin="anonymous"></script>
+        <script 
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+            crossorigin="anonymous"></script>
+        <script 
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+            crossorigin="anonymous"></script>
+
+    </body>
+
+</html>
