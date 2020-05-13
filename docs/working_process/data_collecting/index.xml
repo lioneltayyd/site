@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Collecting on Lionel Tay</title>
+    <link>https://lionelcub.github.io/site/working_process/data_collecting/</link>
+    <description>Recent content in Data Collecting on Lionel Tay</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 May 2020 22:36:38 +0800</lastBuildDate>
+    
+	<atom:link href="https://lionelcub.github.io/site/working_process/data_collecting/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Applying API Requests On Hacker News Search API.</title>
+      <link>https://lionelcub.github.io/site/working_process/data_collecting/applying_api_requests_on_hacker_news_search_api/</link>
+      <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/working_process/data_collecting/applying_api_requests_on_hacker_news_search_api/</guid>
+      <description>applying_API_requests_on_hacker_news_search_API</description>
+    </item>
+    
+    <item>
+      <title>Applying Web Scraping On IMDB &amp; Metascore Movie Ratings</title>
+      <link>https://lionelcub.github.io/site/working_process/data_collecting/applying_web_scraping_on_imdb_and_metascore_movie_ratings/</link>
+      <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/working_process/data_collecting/applying_web_scraping_on_imdb_and_metascore_movie_ratings/</guid>
+      <description>applying_web_scraping_on_IMDB_and_metascore_movie_ratings</description>
+    </item>
+    
+    <item>
+      <title>Making Request To FRED API &amp; Constructing Economic Dashboard</title>
+      <link>https://lionelcub.github.io/site/working_process/data_collecting/collecting_fred_data_and_constructing_economic_dashboard/</link>
+      <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/working_process/data_collecting/collecting_fred_data_and_constructing_economic_dashboard/</guid>
+      <description>compile_economic_data</description>
+    </item>
+    
+  </channel>
+</rss>

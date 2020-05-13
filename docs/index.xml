@@ -7,332 +7,371 @@
     <description></description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Jan 2020 05:48:44 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 01 May 2020 22:36:38 +0800</lastBuildDate>
     
         <atom:link href="https://lionelcub.github.io/site/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Ames Housing Prices Prediction</title>
+      <link>https://lionelcub.github.io/site/analytical_tools/python/ames_housing_prices_regression/</link>
+      <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/analytical_tools/python/ames_housing_prices_regression/</guid>
+      <description>ames_housing_prices_prediction</description>
+    </item>
+    
+    <item>
+      <title>Ames Housing Prices Prediction</title>
+      <link>https://lionelcub.github.io/site/applied_domain/price_estimation/ames_housing_prices_regression/</link>
+      <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/applied_domain/price_estimation/ames_housing_prices_regression/</guid>
+      <description>ames_housing_prices_prediction</description>
+    </item>
+    
+    <item>
+      <title>Ames Housing Prices Prediction</title>
+      <link>https://lionelcub.github.io/site/machine_learning/price_estimation/ames_housing_prices_regression/</link>
+      <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/machine_learning/price_estimation/ames_housing_prices_regression/</guid>
+      <description>ames_housing_prices_prediction</description>
+    </item>
+    
+    <item>
+      <title>Applying API Requests On Hacker News Search API.</title>
+      <link>https://lionelcub.github.io/site/analytical_tools/api_request/applying_api_requests_on_hacker_news_search_api/</link>
+      <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/analytical_tools/api_request/applying_api_requests_on_hacker_news_search_api/</guid>
+      <description>applying_API_requests_on_hacker_news_search_API</description>
+    </item>
+    
+    <item>
+      <title>Applying API Requests On Hacker News Search API.</title>
+      <link>https://lionelcub.github.io/site/working_process/data_collecting/applying_api_requests_on_hacker_news_search_api/</link>
+      <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/working_process/data_collecting/applying_api_requests_on_hacker_news_search_api/</guid>
+      <description>applying_API_requests_on_hacker_news_search_API</description>
+    </item>
+    
+    <item>
+      <title>Applying Web Scraping On IMDB &amp; Metascore Movie Ratings</title>
+      <link>https://lionelcub.github.io/site/analytical_tools/web_scraping/applying_web_scraping_on_imdb_and_metascore_movie_ratings/</link>
+      <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/analytical_tools/web_scraping/applying_web_scraping_on_imdb_and_metascore_movie_ratings/</guid>
+      <description>applying_web_scraping_on_IMDB_and_metascore_movie_ratings</description>
+    </item>
+    
+    <item>
+      <title>Applying Web Scraping On IMDB &amp; Metascore Movie Ratings</title>
+      <link>https://lionelcub.github.io/site/working_process/data_collecting/applying_web_scraping_on_imdb_and_metascore_movie_ratings/</link>
+      <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/working_process/data_collecting/applying_web_scraping_on_imdb_and_metascore_movie_ratings/</guid>
+      <description>applying_web_scraping_on_IMDB_and_metascore_movie_ratings</description>
+    </item>
+    
+    <item>
+      <title>Building Luigi Pipeline To Collect &amp; Process ETF Data</title>
+      <link>https://lionelcub.github.io/site/analytical_tools/luigi_pipeline/building_luigi_pipeline_to_collect_and_process_etf_data/</link>
+      <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/analytical_tools/luigi_pipeline/building_luigi_pipeline_to_collect_and_process_etf_data/</guid>
+      <description>compile_ticker_data</description>
+    </item>
+    
+    <item>
+      <title>Building Luigi Pipeline To Collect &amp; Process ETF Data</title>
+      <link>https://lionelcub.github.io/site/analytical_tools/python/building_luigi_pipeline_to_collect_and_process_etf_data/</link>
+      <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/analytical_tools/python/building_luigi_pipeline_to_collect_and_process_etf_data/</guid>
+      <description>compile_ticker_data</description>
+    </item>
+    
+    <item>
+      <title>Building Luigi Pipeline To Collect &amp; Process ETF Data</title>
+      <link>https://lionelcub.github.io/site/applied_domain/financial_market/building_luigi_pipeline_to_collect_and_process_etf_data/</link>
+      <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/applied_domain/financial_market/building_luigi_pipeline_to_collect_and_process_etf_data/</guid>
+      <description>compile_ticker_data</description>
+    </item>
+    
+    <item>
+      <title>Building Luigi Pipeline To Collect &amp; Process ETF Data</title>
+      <link>https://lionelcub.github.io/site/working_process/data_pipeline/building_luigi_pipeline_to_collect_and_process_etf_data/</link>
+      <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/working_process/data_pipeline/building_luigi_pipeline_to_collect_and_process_etf_data/</guid>
+      <description>compile_ticker_data</description>
+    </item>
+    
+    <item>
+      <title>Building Pipeline For Hacker News Search API</title>
+      <link>https://lionelcub.github.io/site/working_process/data_pipeline/building_pipeline_for_hacker_news_search_api/</link>
+      <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/working_process/data_pipeline/building_pipeline_for_hacker_news_search_api/</guid>
+      <description>building_pipeline_for_hacker_news_search_API</description>
+    </item>
+    
+    <item>
+      <title>Cold Storage Milk Quality Maintainance Investigation</title>
+      <link>https://lionelcub.github.io/site/analytical_tools/r/cold_storage_milk_quality_maintainance_investigation/</link>
+      <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/analytical_tools/r/cold_storage_milk_quality_maintainance_investigation/</guid>
+      <description>Cold Storage Milk Quality Maintainance Investigation. Project purpose. Cold Storage started its operations in Jan 2016. They are in the business of storing Pasteurized Fresh Whole or Skimmed Milk, Sweet Cream, Flavoured Milk Drinks. To ensure that there is no change of texture, body appearance, separation of fats the optimal temperature to be maintained is between 2—4°C.
+In the first year of business, they outsourced the plant maintenance work to a professional company with stiff penalty clauses.</description>
+    </item>
+    
+    <item>
+      <title>Cold Storage Milk Quality Maintainance Investigation</title>
+      <link>https://lionelcub.github.io/site/applied_domain/product_analysis/cold_storage_milk_quality_maintainance_investigation/</link>
+      <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/applied_domain/product_analysis/cold_storage_milk_quality_maintainance_investigation/</guid>
+      <description>Cold Storage Milk Quality Maintainance Investigation. Project purpose. Cold Storage started its operations in Jan 2016. They are in the business of storing Pasteurized Fresh Whole or Skimmed Milk, Sweet Cream, Flavoured Milk Drinks. To ensure that there is no change of texture, body appearance, separation of fats the optimal temperature to be maintained is between 2—4°C.
+In the first year of business, they outsourced the plant maintenance work to a professional company with stiff penalty clauses.</description>
+    </item>
+    
+    <item>
+      <title>Cold Storage Milk Quality Maintainance Investigation</title>
+      <link>https://lionelcub.github.io/site/statistical_testing/anova_or_factorial_anova/cold_storage_milk_quality_maintainance_investigation/</link>
+      <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/statistical_testing/anova_or_factorial_anova/cold_storage_milk_quality_maintainance_investigation/</guid>
+      <description>Cold Storage Milk Quality Maintainance Investigation. Project purpose. Cold Storage started its operations in Jan 2016. They are in the business of storing Pasteurized Fresh Whole or Skimmed Milk, Sweet Cream, Flavoured Milk Drinks. To ensure that there is no change of texture, body appearance, separation of fats the optimal temperature to be maintained is between 2—4°C.
+In the first year of business, they outsourced the plant maintenance work to a professional company with stiff penalty clauses.</description>
+    </item>
+    
+    <item>
+      <title>Constructing Data Tables For Market Analysis</title>
+      <link>https://lionelcub.github.io/site/analytical_tools/python/constructing_data_tables_for_market_analysis/</link>
+      <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/analytical_tools/python/constructing_data_tables_for_market_analysis/</guid>
+      <description>compile_ticker_data</description>
+    </item>
+    
+    <item>
+      <title>Constructing Data Tables For Market Analysis</title>
+      <link>https://lionelcub.github.io/site/applied_domain/financial_market/constructing_data_tables_for_market_analysis/</link>
+      <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/applied_domain/financial_market/constructing_data_tables_for_market_analysis/</guid>
+      <description>compile_ticker_data</description>
+    </item>
+    
+    <item>
+      <title>Constructing Data Tables For Market Analysis</title>
+      <link>https://lionelcub.github.io/site/dashboard_visualisation/bokeh_dashboard/constructing_data_tables_for_market_analysis/</link>
+      <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/dashboard_visualisation/bokeh_dashboard/constructing_data_tables_for_market_analysis/</guid>
+      <description>compile_ticker_data</description>
+    </item>
+    
+    <item>
+      <title>Constructing ETF Dashboard For Market Analysis</title>
+      <link>https://lionelcub.github.io/site/analytical_tools/python/constructing_etf_dashboard_for_market_analysis/</link>
+      <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/analytical_tools/python/constructing_etf_dashboard_for_market_analysis/</guid>
+      <description>compile_ticker_data</description>
+    </item>
+    
+    <item>
+      <title>Constructing ETF Dashboard For Market Analysis</title>
+      <link>https://lionelcub.github.io/site/applied_domain/financial_market/constructing_etf_dashboard_for_market_analysis/</link>
+      <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/applied_domain/financial_market/constructing_etf_dashboard_for_market_analysis/</guid>
+      <description>compile_ticker_data</description>
+    </item>
+    
+    <item>
+      <title>Constructing ETF Dashboard For Market Analysis</title>
+      <link>https://lionelcub.github.io/site/dashboard_visualisation/bokeh_dashboard/constructing_etf_dashboard_for_market_analysis/</link>
+      <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/dashboard_visualisation/bokeh_dashboard/constructing_etf_dashboard_for_market_analysis/</guid>
+      <description>compile_ticker_data</description>
+    </item>
+    
+    <item>
       <title>Designing Database With SQL</title>
-      <link>https://lionelcub.github.io/site/building_database/designing_database_with_sql/</link>
-      <pubDate>Tue, 07 Jan 2020 05:48:44 +0800</pubDate>
+      <link>https://lionelcub.github.io/site/analytical_tools/sqlite_or_postgresql/designing_database_with_sql/</link>
+      <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
       
-      <guid>https://lionelcub.github.io/site/building_database/designing_database_with_sql/</guid>
-      <description></description>
+      <guid>https://lionelcub.github.io/site/analytical_tools/sqlite_or_postgresql/designing_database_with_sql/</guid>
+      <description>designing_database_with_SQL</description>
     </item>
     
     <item>
       <title>Designing Database With SQL</title>
-      <link>https://lionelcub.github.io/site/tag/sqlite_or_postgresql/designing_database_with_sql/</link>
-      <pubDate>Tue, 07 Jan 2020 05:48:44 +0800</pubDate>
+      <link>https://lionelcub.github.io/site/working_process/building_database/designing_database_with_sql/</link>
+      <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
       
-      <guid>https://lionelcub.github.io/site/tag/sqlite_or_postgresql/designing_database_with_sql/</guid>
-      <description></description>
+      <guid>https://lionelcub.github.io/site/working_process/building_database/designing_database_with_sql/</guid>
+      <description>designing_database_with_SQL</description>
     </item>
     
     <item>
-      <title>Ames Housing Prices Prediction</title>
-      <link>https://lionelcub.github.io/site/domain/price_prediction/ames_housing_prices_regression/</link>
-      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
+      <title>Finding The Best Markets To Advertise Products</title>
+      <link>https://lionelcub.github.io/site/analytical_tools/python/finding_the_best_markets_to_advertise_products/</link>
+      <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
       
-      <guid>https://lionelcub.github.io/site/domain/price_prediction/ames_housing_prices_regression/</guid>
-      <description></description>
+      <guid>https://lionelcub.github.io/site/analytical_tools/python/finding_the_best_markets_to_advertise_products/</guid>
+      <description>finding_the_best_markets_to_advertise_products</description>
     </item>
     
     <item>
-      <title>Ames Housing Prices Prediction</title>
-      <link>https://lionelcub.github.io/site/machine_learning/ames_housing_prices_regression/</link>
-      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
+      <title>Finding The Best Markets To Advertise Products</title>
+      <link>https://lionelcub.github.io/site/applied_domain/market_analysis/finding_the_best_markets_to_advertise_products/</link>
+      <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
       
-      <guid>https://lionelcub.github.io/site/machine_learning/ames_housing_prices_regression/</guid>
-      <description></description>
+      <guid>https://lionelcub.github.io/site/applied_domain/market_analysis/finding_the_best_markets_to_advertise_products/</guid>
+      <description>finding_the_best_markets_to_advertise_products</description>
     </item>
     
     <item>
-      <title>Ames Housing Prices Prediction</title>
-      <link>https://lionelcub.github.io/site/tag/ml_regression/ames_housing_prices_regression/</link>
-      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
+      <title>Investigating Complaint Against Cold Storage Milk Products</title>
+      <link>https://lionelcub.github.io/site/analytical_tools/r/investigating_complaint_against_cold_storage_milk_products/</link>
+      <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
       
-      <guid>https://lionelcub.github.io/site/tag/ml_regression/ames_housing_prices_regression/</guid>
-      <description></description>
+      <guid>https://lionelcub.github.io/site/analytical_tools/r/investigating_complaint_against_cold_storage_milk_products/</guid>
+      <description>Investigating Complaint Against Cold Storage Milk Products. Project purpose. In Mar 2018, Cold Storage started getting complaints from their clients that they have been getting complaints from end consumers of the dairy products going sour and often smelling. On getting these complaints, the supervisor pulls out data of the last 35 days’ temperatures. As a safety measure, the Supervisor decides to be vigilant to maintain the temperature at 3.9°C or below.</description>
     </item>
     
     <item>
-      <title>Ames Housing Prices Prediction</title>
-      <link>https://lionelcub.github.io/site/tag/python/ames_housing_prices_regression/</link>
-      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
+      <title>Investigating Complaint Against Cold Storage Milk Products</title>
+      <link>https://lionelcub.github.io/site/applied_domain/product_analysis/investigating_complaint_against_cold_storage_milk_products/</link>
+      <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
       
-      <guid>https://lionelcub.github.io/site/tag/python/ames_housing_prices_regression/</guid>
-      <description></description>
+      <guid>https://lionelcub.github.io/site/applied_domain/product_analysis/investigating_complaint_against_cold_storage_milk_products/</guid>
+      <description>Investigating Complaint Against Cold Storage Milk Products. Project purpose. In Mar 2018, Cold Storage started getting complaints from their clients that they have been getting complaints from end consumers of the dairy products going sour and often smelling. On getting these complaints, the supervisor pulls out data of the last 35 days’ temperatures. As a safety measure, the Supervisor decides to be vigilant to maintain the temperature at 3.9°C or below.</description>
     </item>
     
     <item>
-      <title>Applying API Requests On Hacker News Search API.</title>
-      <link>https://lionelcub.github.io/site/data_collecting/applying_api_requests_on_hacker_news_search_api/</link>
-      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
+      <title>Investigating Complaint Against Cold Storage Milk Products</title>
+      <link>https://lionelcub.github.io/site/statistical_testing/one_sample_test/investigating_complaint_against_cold_storage_milk_products/</link>
+      <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
       
-      <guid>https://lionelcub.github.io/site/data_collecting/applying_api_requests_on_hacker_news_search_api/</guid>
-      <description></description>
+      <guid>https://lionelcub.github.io/site/statistical_testing/one_sample_test/investigating_complaint_against_cold_storage_milk_products/</guid>
+      <description>Investigating Complaint Against Cold Storage Milk Products. Project purpose. In Mar 2018, Cold Storage started getting complaints from their clients that they have been getting complaints from end consumers of the dairy products going sour and often smelling. On getting these complaints, the supervisor pulls out data of the last 35 days’ temperatures. As a safety measure, the Supervisor decides to be vigilant to maintain the temperature at 3.9°C or below.</description>
     </item>
     
     <item>
-      <title>Applying API Requests On Hacker News Search API.</title>
-      <link>https://lionelcub.github.io/site/tag/api_requests/applying_api_requests_on_hacker_news_search_api/</link>
-      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
+      <title>Making Request To FRED API &amp; Constructing Economic Dashboard</title>
+      <link>https://lionelcub.github.io/site/analytical_tools/api_request/collecting_fred_data_and_constructing_economic_dashboard/</link>
+      <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
       
-      <guid>https://lionelcub.github.io/site/tag/api_requests/applying_api_requests_on_hacker_news_search_api/</guid>
-      <description></description>
+      <guid>https://lionelcub.github.io/site/analytical_tools/api_request/collecting_fred_data_and_constructing_economic_dashboard/</guid>
+      <description>compile_economic_data</description>
     </item>
     
     <item>
-      <title>Applying API Requests On Hacker News Search API.</title>
-      <link>https://lionelcub.github.io/site/tag/python/applying_api_requests_on_hacker_news_search_api/</link>
-      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
+      <title>Making Request To FRED API &amp; Constructing Economic Dashboard</title>
+      <link>https://lionelcub.github.io/site/analytical_tools/python/collecting_fred_data_and_constructing_economic_dashboard/</link>
+      <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
       
-      <guid>https://lionelcub.github.io/site/tag/python/applying_api_requests_on_hacker_news_search_api/</guid>
-      <description></description>
+      <guid>https://lionelcub.github.io/site/analytical_tools/python/collecting_fred_data_and_constructing_economic_dashboard/</guid>
+      <description>compile_economic_data</description>
     </item>
     
     <item>
-      <title>Applying API Requests On Hacker News Stories.</title>
-      <link>https://lionelcub.github.io/site/data_collecting/applying_api_requests_on_hacker_news_stories/</link>
-      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
+      <title>Making Request To FRED API &amp; Constructing Economic Dashboard</title>
+      <link>https://lionelcub.github.io/site/applied_domain/financial_market/collecting_fred_data_and_constructing_economic_dashboard/</link>
+      <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
       
-      <guid>https://lionelcub.github.io/site/data_collecting/applying_api_requests_on_hacker_news_stories/</guid>
-      <description></description>
+      <guid>https://lionelcub.github.io/site/applied_domain/financial_market/collecting_fred_data_and_constructing_economic_dashboard/</guid>
+      <description>compile_economic_data</description>
     </item>
     
     <item>
-      <title>Applying API Requests On Hacker News Stories.</title>
-      <link>https://lionelcub.github.io/site/tag/api_requests/applying_api_requests_on_hacker_news_stories/</link>
-      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
+      <title>Making Request To FRED API &amp; Constructing Economic Dashboard</title>
+      <link>https://lionelcub.github.io/site/dashboard_visualisation/bokeh_dashboard/collecting_fred_data_and_constructing_economic_dashboard/</link>
+      <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
       
-      <guid>https://lionelcub.github.io/site/tag/api_requests/applying_api_requests_on_hacker_news_stories/</guid>
-      <description></description>
+      <guid>https://lionelcub.github.io/site/dashboard_visualisation/bokeh_dashboard/collecting_fred_data_and_constructing_economic_dashboard/</guid>
+      <description>compile_economic_data</description>
     </item>
     
     <item>
-      <title>Applying API Requests On Hacker News Stories.</title>
-      <link>https://lionelcub.github.io/site/tag/python/applying_api_requests_on_hacker_news_stories/</link>
-      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
+      <title>Making Request To FRED API &amp; Constructing Economic Dashboard</title>
+      <link>https://lionelcub.github.io/site/working_process/data_collecting/collecting_fred_data_and_constructing_economic_dashboard/</link>
+      <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
       
-      <guid>https://lionelcub.github.io/site/tag/python/applying_api_requests_on_hacker_news_stories/</guid>
-      <description></description>
+      <guid>https://lionelcub.github.io/site/working_process/data_collecting/collecting_fred_data_and_constructing_economic_dashboard/</guid>
+      <description>compile_economic_data</description>
     </item>
     
     <item>
-      <title>Applying Web Scraping On IMDB &amp; Metascore Movie Ratings</title>
-      <link>https://lionelcub.github.io/site/data_collecting/applying_web_scraping_on_imdb_and_metascore_movie_ratings/</link>
-      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
+      <title>Researching The Effect Of Disability On Device Preference</title>
+      <link>https://lionelcub.github.io/site/analytical_tools/r/researching_the_effect_of_disability_on_device_preference/</link>
+      <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
       
-      <guid>https://lionelcub.github.io/site/data_collecting/applying_web_scraping_on_imdb_and_metascore_movie_ratings/</guid>
-      <description></description>
+      <guid>https://lionelcub.github.io/site/analytical_tools/r/researching_the_effect_of_disability_on_device_preference/</guid>
+      <description>Researching The Effect Of Disability On Device Preference. Project purpose. The user research team conducted an experiment design to find out whether disability has an effect on the device preference. There are two groups of users, one with disability and another without. They were asked to use two different devices, touchpads and trackballs as computer input devices, and pick their preference. Now that the data is collected, the objective is to conduct a statistical testing to see whether disability has a signifcant effect on device preference.</description>
     </item>
     
     <item>
-      <title>Applying Web Scraping On IMDB &amp; Metascore Movie Ratings</title>
-      <link>https://lionelcub.github.io/site/tag/python/applying_web_scraping_on_imdb_and_metascore_movie_ratings/</link>
-      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
+      <title>Researching The Effect Of Disability On Device Preference</title>
+      <link>https://lionelcub.github.io/site/applied_domain/user_testing/researching_the_effect_of_disability_on_device_preference/</link>
+      <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
       
-      <guid>https://lionelcub.github.io/site/tag/python/applying_web_scraping_on_imdb_and_metascore_movie_ratings/</guid>
-      <description></description>
+      <guid>https://lionelcub.github.io/site/applied_domain/user_testing/researching_the_effect_of_disability_on_device_preference/</guid>
+      <description>Researching The Effect Of Disability On Device Preference. Project purpose. The user research team conducted an experiment design to find out whether disability has an effect on the device preference. There are two groups of users, one with disability and another without. They were asked to use two different devices, touchpads and trackballs as computer input devices, and pick their preference. Now that the data is collected, the objective is to conduct a statistical testing to see whether disability has a signifcant effect on device preference.</description>
     </item>
     
     <item>
-      <title>Applying Web Scraping On IMDB &amp; Metascore Movie Ratings</title>
-      <link>https://lionelcub.github.io/site/tag/web_scraping/applying_web_scraping_on_imdb_and_metascore_movie_ratings/</link>
-      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
+      <title>Researching The Effect Of Disability On Device Preference</title>
+      <link>https://lionelcub.github.io/site/statistical_testing/anova_or_factorial_anova/researching_the_effect_of_disability_on_device_preference/</link>
+      <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
       
-      <guid>https://lionelcub.github.io/site/tag/web_scraping/applying_web_scraping_on_imdb_and_metascore_movie_ratings/</guid>
-      <description></description>
+      <guid>https://lionelcub.github.io/site/statistical_testing/anova_or_factorial_anova/researching_the_effect_of_disability_on_device_preference/</guid>
+      <description>Researching The Effect Of Disability On Device Preference. Project purpose. The user research team conducted an experiment design to find out whether disability has an effect on the device preference. There are two groups of users, one with disability and another without. They were asked to use two different devices, touchpads and trackballs as computer input devices, and pick their preference. Now that the data is collected, the objective is to conduct a statistical testing to see whether disability has a signifcant effect on device preference.</description>
     </item>
     
     <item>
-      <title>Building Pipeline For Hacker News Search API.</title>
-      <link>https://lionelcub.github.io/site/building_data_pipeline/building_pipeline_for_hacker_news_search_api/</link>
-      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
+      <title>Researching User Preference On Note-taking Apps</title>
+      <link>https://lionelcub.github.io/site/analytical_tools/r/researching_user_preference_on_note_taking_apps/</link>
+      <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
       
-      <guid>https://lionelcub.github.io/site/building_data_pipeline/building_pipeline_for_hacker_news_search_api/</guid>
-      <description></description>
+      <guid>https://lionelcub.github.io/site/analytical_tools/r/researching_user_preference_on_note_taking_apps/</guid>
+      <description>Researching User Preference On Note-taking Apps. Project purpose. The user research team conducted an experiment design to find out whether users use built-in-app or third-party-app more often for note-taking. There are 20 users. Each user were asked to use both built-in-app and third-party-app on either iPhone or Andriod in different order. The users were randomly assigned to specifc order and device. Meaning, some users will use built-in-app first, while others will use third-app-party first, however, each users will use one device only.</description>
     </item>
     
     <item>
-      <title>Building Pipeline For Hacker News Search API.</title>
-      <link>https://lionelcub.github.io/site/tag/data_pipeline/building_pipeline_for_hacker_news_search_api/</link>
-      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
+      <title>Researching User Preference On Note-taking Apps</title>
+      <link>https://lionelcub.github.io/site/applied_domain/user_testing/researching_user_preference_on_note_taking_apps/</link>
+      <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
       
-      <guid>https://lionelcub.github.io/site/tag/data_pipeline/building_pipeline_for_hacker_news_search_api/</guid>
-      <description></description>
+      <guid>https://lionelcub.github.io/site/applied_domain/user_testing/researching_user_preference_on_note_taking_apps/</guid>
+      <description>Researching User Preference On Note-taking Apps. Project purpose. The user research team conducted an experiment design to find out whether users use built-in-app or third-party-app more often for note-taking. There are 20 users. Each user were asked to use both built-in-app and third-party-app on either iPhone or Andriod in different order. The users were randomly assigned to specifc order and device. Meaning, some users will use built-in-app first, while others will use third-app-party first, however, each users will use one device only.</description>
     </item>
     
     <item>
-      <title>Building Pipeline For Hacker News Search API.</title>
-      <link>https://lionelcub.github.io/site/tag/python/building_pipeline_for_hacker_news_search_api/</link>
-      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
+      <title>Researching User Preference On Note-taking Apps</title>
+      <link>https://lionelcub.github.io/site/statistical_testing/anova_or_factorial_anova/researching_user_preference_on_note_taking_apps/</link>
+      <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
       
-      <guid>https://lionelcub.github.io/site/tag/python/building_pipeline_for_hacker_news_search_api/</guid>
-      <description></description>
+      <guid>https://lionelcub.github.io/site/statistical_testing/anova_or_factorial_anova/researching_user_preference_on_note_taking_apps/</guid>
+      <description>Researching User Preference On Note-taking Apps. Project purpose. The user research team conducted an experiment design to find out whether users use built-in-app or third-party-app more often for note-taking. There are 20 users. Each user were asked to use both built-in-app and third-party-app on either iPhone or Andriod in different order. The users were randomly assigned to specifc order and device. Meaning, some users will use built-in-app first, while others will use third-app-party first, however, each users will use one device only.</description>
     </item>
     
     <item>
-      <title>Cardio Fitness Customers Analysis &amp; Recommendation For Market Targeting.</title>
-      <link>https://lionelcub.github.io/site/analysis_and_visualisation/cardio_fitness_customers_analysis_and_recommendation_for_market_targeting/</link>
-      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
+      <title>Tableau Public Gallery</title>
+      <link>https://lionelcub.github.io/site/dashboard_visualisation/tableau/tableau_public_gallery/</link>
+      <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
       
-      <guid>https://lionelcub.github.io/site/analysis_and_visualisation/cardio_fitness_customers_analysis_and_recommendation_for_market_targeting/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cardio Fitness Customers Analysis &amp; Recommendation For Market Targeting.</title>
-      <link>https://lionelcub.github.io/site/domain/customer_analysis/cardio_fitness_customers_analysis_and_recommendation_for_market_targeting/</link>
-      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
-      
-      <guid>https://lionelcub.github.io/site/domain/customer_analysis/cardio_fitness_customers_analysis_and_recommendation_for_market_targeting/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cardio Fitness Customers Analysis &amp; Recommendation For Market Targeting.</title>
-      <link>https://lionelcub.github.io/site/tag/r/cardio_fitness_customers_analysis_and_recommendation_for_market_targeting/</link>
-      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
-      
-      <guid>https://lionelcub.github.io/site/tag/r/cardio_fitness_customers_analysis_and_recommendation_for_market_targeting/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cold Storage Milk Quality Maintainance Investigation.</title>
-      <link>https://lionelcub.github.io/site/domain/product_analysis/cold_storage_milk_quality_maintainance_investigation/</link>
-      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
-      
-      <guid>https://lionelcub.github.io/site/domain/product_analysis/cold_storage_milk_quality_maintainance_investigation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cold Storage Milk Quality Maintainance Investigation.</title>
-      <link>https://lionelcub.github.io/site/statistical_testing/cold_storage_milk_quality_maintainance_investigation/</link>
-      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
-      
-      <guid>https://lionelcub.github.io/site/statistical_testing/cold_storage_milk_quality_maintainance_investigation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cold Storage Milk Quality Maintainance Investigation.</title>
-      <link>https://lionelcub.github.io/site/tag/r/cold_storage_milk_quality_maintainance_investigation/</link>
-      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
-      
-      <guid>https://lionelcub.github.io/site/tag/r/cold_storage_milk_quality_maintainance_investigation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Finding The Best Markets To Advertise Products.</title>
-      <link>https://lionelcub.github.io/site/analysis_and_visualisation/finding_the_best_markets_to_advertise_products/</link>
-      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
-      
-      <guid>https://lionelcub.github.io/site/analysis_and_visualisation/finding_the_best_markets_to_advertise_products/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Finding The Best Markets To Advertise Products.</title>
-      <link>https://lionelcub.github.io/site/domain/market_analysis/finding_the_best_markets_to_advertise_products/</link>
-      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
-      
-      <guid>https://lionelcub.github.io/site/domain/market_analysis/finding_the_best_markets_to_advertise_products/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Finding The Best Markets To Advertise Products.</title>
-      <link>https://lionelcub.github.io/site/tag/python/finding_the_best_markets_to_advertise_products/</link>
-      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
-      
-      <guid>https://lionelcub.github.io/site/tag/python/finding_the_best_markets_to_advertise_products/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Investigating Complaint Against Cold Storage Milk Products.</title>
-      <link>https://lionelcub.github.io/site/domain/product_analysis/investigating_complaint_against_cold_storage_milk_products/</link>
-      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
-      
-      <guid>https://lionelcub.github.io/site/domain/product_analysis/investigating_complaint_against_cold_storage_milk_products/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Investigating Complaint Against Cold Storage Milk Products.</title>
-      <link>https://lionelcub.github.io/site/statistical_testing/investigating_complaint_against_cold_storage_milk_products/</link>
-      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
-      
-      <guid>https://lionelcub.github.io/site/statistical_testing/investigating_complaint_against_cold_storage_milk_products/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Investigating Complaint Against Cold Storage Milk Products.</title>
-      <link>https://lionelcub.github.io/site/tag/r/investigating_complaint_against_cold_storage_milk_products/</link>
-      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
-      
-      <guid>https://lionelcub.github.io/site/tag/r/investigating_complaint_against_cold_storage_milk_products/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Researching The Effect Of Disability On Device Preference.</title>
-      <link>https://lionelcub.github.io/site/domain/user_testing/researching_the_effect_of_disability_on_device_preference/</link>
-      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
-      
-      <guid>https://lionelcub.github.io/site/domain/user_testing/researching_the_effect_of_disability_on_device_preference/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Researching The Effect Of Disability On Device Preference.</title>
-      <link>https://lionelcub.github.io/site/statistical_testing/researching_the_effect_of_disability_on_device_preference/</link>
-      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
-      
-      <guid>https://lionelcub.github.io/site/statistical_testing/researching_the_effect_of_disability_on_device_preference/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Researching The Effect Of Disability On Device Preference.</title>
-      <link>https://lionelcub.github.io/site/tag/r/researching_the_effect_of_disability_on_device_preference/</link>
-      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
-      
-      <guid>https://lionelcub.github.io/site/tag/r/researching_the_effect_of_disability_on_device_preference/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Researching User Preference On Note-taking Apps.</title>
-      <link>https://lionelcub.github.io/site/domain/user_testing/researching_user_preference_on_note_taking_apps/</link>
-      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
-      
-      <guid>https://lionelcub.github.io/site/domain/user_testing/researching_user_preference_on_note_taking_apps/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Researching User Preference On Note-taking Apps.</title>
-      <link>https://lionelcub.github.io/site/statistical_testing/researching_user_preference_on_note_taking_apps/</link>
-      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
-      
-      <guid>https://lionelcub.github.io/site/statistical_testing/researching_user_preference_on_note_taking_apps/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Researching User Preference On Note-taking Apps.</title>
-      <link>https://lionelcub.github.io/site/tag/r/researching_user_preference_on_note_taking_apps/</link>
-      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
-      
-      <guid>https://lionelcub.github.io/site/tag/r/researching_user_preference_on_note_taking_apps/</guid>
+      <guid>https://lionelcub.github.io/site/dashboard_visualisation/tableau/tableau_public_gallery/</guid>
       <description></description>
     </item>
     
@@ -342,8 +381,8 @@
       <pubDate>Sun, 21 Jul 2019 04:50:32 +0800</pubDate>
       
       <guid>https://lionelcub.github.io/site/about/about_me/</guid>
-      <description>Hi, I&amp;rsquo;m Lionel, nice to meet you.  --  Data Analyst / Inquisitive / Problem Solver / Pragmatic / Organised
-I have keen interests in creative, cognitive, and quantitative challenges. As an analyst, I often curious and question about various subjects, processes, and outcomes. I understand the significance of practicality. Advising a well-defined action is just as important as insight mining. I&amp;rsquo;m an organised person. I track my studies and activities to keep my productivity and routine in check with scrum and other methods.</description>
+      <description> Hi, I&amp;rsquo;m Lionel, nice to meet you.  -- Organised, curious, initiative, and down-to-earth data analyst with a background in user experience, customer, web, and marketing analytics in the marketing and advertising field. Proficiencies include identifying business requirements or opportunities, planning design experiment, insight mining, machine learning, visualisation, and presenting result-oriented actionable insights to decision-makers. An Agile and Scrum practitioner.
+ Email: lioneltay.yd@gmail.com Github: @lionelcub LinkedIn: @lioneltayyd   -- </description>
     </item>
     
   </channel>

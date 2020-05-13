@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Lionel Tay</title>
+    <link>https://lionelcub.github.io/site/analytical_tools/python/</link>
+    <description>Recent content in Python on Lionel Tay</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 May 2020 22:36:38 +0800</lastBuildDate>
+    
+	<atom:link href="https://lionelcub.github.io/site/analytical_tools/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ames Housing Prices Prediction</title>
+      <link>https://lionelcub.github.io/site/analytical_tools/python/ames_housing_prices_regression/</link>
+      <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/analytical_tools/python/ames_housing_prices_regression/</guid>
+      <description>ames_housing_prices_prediction</description>
+    </item>
+    
+    <item>
+      <title>Building Luigi Pipeline To Collect &amp; Process ETF Data</title>
+      <link>https://lionelcub.github.io/site/analytical_tools/python/building_luigi_pipeline_to_collect_and_process_etf_data/</link>
+      <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/analytical_tools/python/building_luigi_pipeline_to_collect_and_process_etf_data/</guid>
+      <description>compile_ticker_data</description>
+    </item>
+    
+    <item>
+      <title>Constructing Data Tables For Market Analysis</title>
+      <link>https://lionelcub.github.io/site/analytical_tools/python/constructing_data_tables_for_market_analysis/</link>
+      <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/analytical_tools/python/constructing_data_tables_for_market_analysis/</guid>
+      <description>compile_ticker_data</description>
+    </item>
+    
+    <item>
+      <title>Constructing ETF Dashboard For Market Analysis</title>
+      <link>https://lionelcub.github.io/site/analytical_tools/python/constructing_etf_dashboard_for_market_analysis/</link>
+      <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/analytical_tools/python/constructing_etf_dashboard_for_market_analysis/</guid>
+      <description>compile_ticker_data</description>
+    </item>
+    
+    <item>
+      <title>Finding The Best Markets To Advertise Products</title>
+      <link>https://lionelcub.github.io/site/analytical_tools/python/finding_the_best_markets_to_advertise_products/</link>
+      <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/analytical_tools/python/finding_the_best_markets_to_advertise_products/</guid>
+      <description>finding_the_best_markets_to_advertise_products</description>
+    </item>
+    
+    <item>
+      <title>Making Request To FRED API &amp; Constructing Economic Dashboard</title>
+      <link>https://lionelcub.github.io/site/analytical_tools/python/collecting_fred_data_and_constructing_economic_dashboard/</link>
+      <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
+      
+      <guid>https://lionelcub.github.io/site/analytical_tools/python/collecting_fred_data_and_constructing_economic_dashboard/</guid>
+      <description>compile_economic_data</description>
+    </item>
+    
+  </channel>
+</rss>

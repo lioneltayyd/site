@@ -1,0 +1,661 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        
+
+    <script type="application/ld+json">
+
+    {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Investigating Complaint Against Cold Storage Milk Products",
+    "url": "https:\/\/lionelcub.github.io\/site\/statistical_testing\/one_sample_test\/investigating_complaint_against_cold_storage_milk_products\/",
+    "wordCount": "1671",
+    "datePublished": "2020-05-01T22:36:38\x2b08:00",
+    "dateModified": "2020-05-01T22:36:38\x2b08:00",
+    "author": {
+        "@type": "Person",
+        "name": "Lionel Tay"
+    }
+    }
+
+    </script> 
+
+
+
+        <title>
+    Investigating Complaint Against Cold Storage Milk Products
+</title>
+
+
+        
+        <meta property="og:title" content="Investigating Complaint Against Cold Storage Milk Products" />
+<meta property="og:description" content="Investigating Complaint Against Cold Storage Milk Products. Project purpose. In Mar 2018, Cold Storage started getting complaints from their clients that they have been getting complaints from end consumers of the dairy products going sour and often smelling. On getting these complaints, the supervisor pulls out data of the last 35 days’ temperatures. As a safety measure, the Supervisor decides to be vigilant to maintain the temperature at 3.9°C or below." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://lionelcub.github.io/site/statistical_testing/one_sample_test/investigating_complaint_against_cold_storage_milk_products/" />
+<meta property="article:published_time" content="2020-05-01T22:36:38&#43;08:00"/>
+<meta property="article:modified_time" content="2020-05-01T22:36:38&#43;08:00"/>
+
+        <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Investigating Complaint Against Cold Storage Milk Products"/>
+<meta name="twitter:description" content="Investigating Complaint Against Cold Storage Milk Products. Project purpose. In Mar 2018, Cold Storage started getting complaints from their clients that they have been getting complaints from end consumers of the dairy products going sour and often smelling. On getting these complaints, the supervisor pulls out data of the last 35 days’ temperatures. As a safety measure, the Supervisor decides to be vigilant to maintain the temperature at 3.9°C or below."/>
+<meta name="generator" content="Hugo 0.55.6" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+        <meta charset="UTF-8">
+        <meta name="author" content=""/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        
+        <meta name="description" content="Investigating Complaint Against Cold Storage Milk Products. Project purpose. In Mar 2018, Cold Storage started getting complaints from their clients that they have been getting complaints from end consumers of the dairy products going sour and often smelling. On getting these complaints, the supervisor pulls out data of the last 35 days’ temperatures. As a safety measure, the Supervisor decides to be vigilant to maintain the temperature at 3.9°C or below."/>
+        
+
+
+        
+        <link 
+            rel="stylesheet" 
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+            crossorigin="anonymous">
+        
+
+        
+        <script src="https://kit.fontawesome.com/c14bcac617.js"></script>
+
+        
+
+        
+        
+        <link href="https://lionelcub.github.io/site/css/custom.css" rel="stylesheet">
+        <link href="https://lionelcub.github.io/site/css/syntax.css" rel="stylesheet">
+
+
+        
+        <link 
+            href="https://fonts.googleapis.com/css?family=Martel:400,600,700|Montserrat:300,400,500,600,700|Muli:300,300i,400,400i,600,600i,700,700i,800,900|PT+Serif:400,400i,700,700i|Cutive+Mono|PT+Mono&display=swap&subset=latin-ext" 
+            rel="stylesheet">
+        
+
+
+        
+        <script 
+    type="text/javascript"
+    src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' 
+    async>
+</script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[','\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre','code'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+</script>
+
+    </head>
+
+    <body>
+
+        
+        <nav class="navbar navbar-expand-sm fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="https://lionelcub.github.io/site/">Lionel Tay Yee Dang</a>
+                <button 
+                    class="navbar-toggler" 
+                    type="button" 
+                    data-toggle="collapse" 
+                    data-target="#navbarSupportedContent" 
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">   
+                    <ul class="nav navbar-nav mr-auto"></ul>
+                    <ul class="navbar-nav">
+
+                        <li class="nav-item dropdown">
+                            <a 
+                                class="nav-link dropdown-toggle" 
+                                href="#" 
+                                id="navbarDropdown" 
+                                role="button" 
+                                data-toggle="dropdown" 
+                                aria-haspopup="true"
+                                aria-expanded="false">
+                                About
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="https://lionelcub.github.io/site/about/about_me/">About Me</a>
+                                <a class="dropdown-item" href="https://github.com/lionelcub">GitHub</a>
+                                <a class="dropdown-item" href="https://www.linkedin.com/in/lioneltayyd">LinkedIn</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a 
+                                class="nav-link dropdown-toggle" 
+                                href="#" 
+                                id="navbarDropdown" 
+                                role="button" 
+                                data-toggle="dropdown" 
+                                aria-haspopup="true"
+                                aria-expanded="false">
+                                Projects
+                            </a>
+
+                            <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="https://lionelcub.github.io/site/applied_domain/financial_market">Applied Domain</a>
+                                <a class="dropdown-item" href="https://lionelcub.github.io/site/statistical_testing/anova_or_factorial_anova">Statistical Testing</a>
+                                <a class="dropdown-item" href="https://lionelcub.github.io/site/dashboard_visualisation/bokeh_dashboard">Dashboard Visualisation</a>
+                                <a class="dropdown-item" href="https://lionelcub.github.io/site/machine_learning/price_estimation">Machine Learning</a>
+                                <a class="dropdown-item" href="https://lionelcub.github.io/site/working_process/data_collecting">Data Working Process</a>
+                                <a class="dropdown-item" href="https://lionelcub.github.io/site/analytical_tools/python">Analytical Tools</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://lionelcub.github.io/site/notes">Notes</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://lionelcub.github.io/site/blog">Blog</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+
+
+        
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+        
+                     
+
+
+<article>
+  
+  <div class="technical_note">
+    <div class="content">    
+      
+
+<h1 id="investigating-complaint-against-cold-storage-milk-products">Investigating Complaint Against Cold Storage Milk Products.</h1>
+
+<hr />
+
+<h2 id="project-purpose">Project purpose.</h2>
+
+<p>In <strong>Mar 2018</strong>, Cold Storage started getting complaints from their
+clients that they have been getting complaints from end consumers of the
+dairy products going sour and often smelling. On getting these
+complaints, the supervisor pulls out data of the last 35 days’
+temperatures. As a safety measure, the Supervisor decides to <strong>be
+vigilant to maintain the temperature at 3.9°C or below</strong>. Hence the
+analyst team decides to go with <strong>3.9°C as the upper acceptable value
+for mean temperature at an alpha value of 0.1</strong>.</p>
+
+<p>The objective is to find out whether there is a <strong>need for some corrective
+action in the Cold Storage Plant</strong>. Otherwise the <strong>problem might be due to the
+procurement side where Cold Storage is getting the Dairy Products</strong> from.</p>
+
+<hr />
+
+<h2 id="1-explore-and-familiarise-with-the-dataset">1. Explore and familiarise with the dataset.</h2>
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r"><span class="kn">library</span><span class="p">(</span>pacman<span class="p">)</span>
+p_load<span class="p">(</span>readr<span class="p">,</span> dplyr<span class="p">,</span> plyr<span class="p">,</span> ggplot2<span class="p">,</span> car<span class="p">,</span> fitdistrplus<span class="p">,</span> sjstats<span class="p">,</span> nortest<span class="p">,</span> pwr<span class="p">,</span> reshape2<span class="p">)</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r">CS.temp.2018 <span class="o">=</span> read_csv<span class="p">(</span><span class="s">&#34;csv/Cold_Storage_Mar2018.csv&#34;</span><span class="p">)</span></code></pre></div>
+<pre><code>## Parsed with column specification:
+## cols(
+##   Season = col_character(),
+##   Month = col_character(),
+##   Date = col_double(),
+##   Temperature = col_double()
+## )
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r">CS.temp.2018</code></pre></div>
+<pre><code>## # A tibble: 35 x 4
+##    Season Month  Date Temperature
+##    &lt;chr&gt;  &lt;chr&gt; &lt;dbl&gt;       &lt;dbl&gt;
+##  1 Summer Feb      11         4  
+##  2 Summer Feb      12         3.9
+##  3 Summer Feb      13         3.9
+##  4 Summer Feb      14         4  
+##  5 Summer Feb      15         3.8
+##  6 Summer Feb      16         4  
+##  7 Summer Feb      17         4.1
+##  8 Summer Feb      18         4  
+##  9 Summer Feb      19         3.8
+## 10 Summer Feb      20         3.9
+## # … with 25 more rows
+</code></pre>
+
+<hr />
+
+<h3 id="1-1-summarise-of-the-dataset">1.1 Summarise of the dataset.</h3>
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r"><span class="kp">summary</span><span class="p">(</span>CS.temp.2018<span class="p">)</span></code></pre></div>
+<pre><code>##     Season             Month                Date       Temperature   
+##  Length:35          Length:35          Min.   : 1.0   Min.   :3.800  
+##  Class :character   Class :character   1st Qu.: 9.5   1st Qu.:3.900  
+##  Mode  :character   Mode  :character   Median :14.0   Median :3.900  
+##                                        Mean   :14.4   Mean   :3.974  
+##                                        3rd Qu.:19.5   3rd Qu.:4.100  
+##                                        Max.   :28.0   Max.   :4.600
+</code></pre>
+
+<hr />
+
+<h3 id="1-2-transform-dtype">1.2 Transform dtype.</h3>
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r">CS.temp.2018<span class="o">$</span>Season <span class="o">=</span> <span class="kp">as.factor</span><span class="p">(</span>CS.temp.2018<span class="o">$</span>Season<span class="p">)</span>
+CS.temp.2018<span class="o">$</span>Month <span class="o">=</span> <span class="kp">as.factor</span><span class="p">(</span>CS.temp.2018<span class="o">$</span>Month<span class="p">)</span>
+
+<span class="c1"># Summarise the dataset. </span>
+<span class="kp">summary</span><span class="p">(</span>CS.temp.2018<span class="p">)</span></code></pre></div>
+<pre><code>##     Season   Month         Date       Temperature   
+##  Summer:35   Feb:18   Min.   : 1.0   Min.   :3.800  
+##              Mar:17   1st Qu.: 9.5   1st Qu.:3.900  
+##                       Median :14.0   Median :3.900  
+##                       Mean   :14.4   Mean   :3.974  
+##                       3rd Qu.:19.5   3rd Qu.:4.100  
+##                       Max.   :28.0   Max.   :4.600
+</code></pre>
+
+<hr />
+
+<h3 id="1-3-summarise-of-the-dataset-by-month-variable">1.3 Summarise of the dataset by ‘Month’ variable.</h3>
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r">CS.temp.2018.summary.month <span class="o">=</span> ddply<span class="p">(</span><span class="m">.</span>data<span class="o">=</span>CS.temp.2018<span class="p">,</span> <span class="m">.</span>variable<span class="o">=</span> <span class="o">~</span> Month<span class="p">,</span> 
+                                   <span class="m">.</span>fun<span class="o">=</span><span class="kr">function</span><span class="p">(</span>data<span class="p">)</span> <span class="kp">summary</span><span class="p">(</span>data<span class="o">$</span>Temperature<span class="p">))</span>
+CS.temp.2018.summary.month</code></pre></div>
+<pre><code>##   Month Min. 1st Qu. Median     Mean 3rd Qu. Max.
+## 1   Feb  3.8     3.9    3.9 3.972222     4.0  4.6
+## 2   Mar  3.8     3.9    3.9 3.976471     4.1  4.2
+</code></pre>
+
+<hr />
+
+<h3 id="1-4-check-the-detail-of-the-dataset">1.4 Check the detail of the dataset.</h3>
+
+<p><strong>The overview includes the following:</strong></p>
+
+<ol>
+<li>Check the proportion of nulls.</li>
+<li>Check if there’s any duplicated rows.</li>
+</ol>
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r">dataset_detail <span class="o">=</span> <span class="kr">function</span><span class="p">(</span>df<span class="p">)</span> <span class="p">{</span>
+    na_count <span class="o">=</span> <span class="kp">colSums</span><span class="p">(</span><span class="kp">is.na</span><span class="p">(</span>df<span class="p">))</span>
+    
+    <span class="c1"># Details. </span>
+    nulls_proportion <span class="o">=</span> na_count <span class="o">/</span> <span class="kp">nrow</span><span class="p">(</span>df<span class="p">)</span> <span class="o">*</span> <span class="m">100</span>
+    duplicated_nrows <span class="o">=</span> <span class="kp">nrow</span><span class="p">(</span><span class="kp">which</span><span class="p">(</span><span class="kp">duplicated</span><span class="p">(</span>df<span class="p">)))</span>
+    
+    details <span class="o">=</span> <span class="kt">list</span><span class="p">(</span>nulls_proportion<span class="p">,</span> duplicated_nrows<span class="p">)</span>
+    <span class="kp">names</span><span class="p">(</span>details<span class="p">)</span> <span class="o">=</span> <span class="kt">c</span><span class="p">(</span><span class="s">&#34;nulls_proportion&#34;</span><span class="p">,</span> <span class="s">&#34;duplicated_nrows&#34;</span><span class="p">)</span>
+    <span class="kr">return</span><span class="p">(</span>details<span class="p">)</span>
+<span class="p">}</span>
+    
+CS.temp.2018.details <span class="o">=</span> dataset_detail<span class="p">(</span>CS.temp.2018<span class="p">)</span>
+CS.temp.2018.details</code></pre></div>
+<pre><code>## $nulls_proportion
+##      Season       Month        Date Temperature 
+##           0           0           0           0 
+## 
+## $duplicated_nrows
+## NULL
+</code></pre>
+
+<hr />
+
+<h3 id="1-5-visualise-the-distribution-for-temperature-variable">1.5 Visualise the distribution for ‘Temperature’ variable.</h3>
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r">ggplot<span class="p">(</span>data<span class="o">=</span>CS.temp.2018<span class="p">)</span> <span class="o">+</span>
+    aes<span class="p">(</span>x<span class="o">=</span>Temperature<span class="p">)</span> <span class="o">+</span>
+    geom_density<span class="p">(</span>fill<span class="o">=</span><span class="s">&#34;blue&#34;</span><span class="p">,</span> color<span class="o">=</span><span class="s">&#34;blue&#34;</span><span class="p">,</span> alpha<span class="o">=</span><span class="m">.5</span><span class="p">)</span></code></pre></div>
+<p><img src="unnamed-chunk-7-1.png" alt="" /></p>
+
+<hr />
+
+<h3 id="1-6-visualise-the-normality-with-qq-plot">1.6 Visualise the normality with QQ plot.</h3>
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r">qqnorm<span class="p">(</span>CS.temp.2018<span class="o">$</span>Temperature<span class="p">,</span> pch<span class="o">=</span><span class="m">1</span><span class="p">,</span> frame<span class="o">=</span><span class="kc">FALSE</span><span class="p">)</span>
+qqline<span class="p">(</span>CS.temp.2018<span class="o">$</span>Temperature<span class="p">,</span> lwd<span class="o">=</span><span class="m">2</span><span class="p">)</span></code></pre></div>
+<p><img src="unnamed-chunk-8-1.png" alt="" /></p>
+
+<hr />
+
+<h3 id="1-7-visualise-the-distribution-for-temperature-variable-by-month">1.7 Visualise the distribution for ‘Temperature’ variable by ‘Month’.</h3>
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r">ggplot<span class="p">(</span>data<span class="o">=</span>CS.temp.2018<span class="p">)</span> <span class="o">+</span>
+    aes<span class="p">(</span>x<span class="o">=</span>Month<span class="p">,</span> y<span class="o">=</span>Temperature<span class="p">)</span> <span class="o">+</span>
+    geom_boxplot<span class="p">()</span> <span class="o">+</span> 
+    geom_hline<span class="p">(</span>yintercept<span class="o">=</span><span class="m">3.9</span><span class="p">,</span> color<span class="o">=</span><span class="s">&#34;red&#34;</span><span class="p">,</span> alpha<span class="o">=</span><span class="m">.5</span><span class="p">)</span></code></pre></div>
+<p><img src="unnamed-chunk-9-1.png" alt="" /></p>
+
+<hr />
+
+<h3 id="1-8-summary-for-section-1">1.8 Summary for section 1:</h3>
+
+<p><strong>Data dictionary:</strong></p>
+
+<p>This dataset has 35 row. Each row refers to each date. The counts for
+each unique value of the <code>Month</code> variable is about 17 rows, which is
+quite balanced.</p>
+
+<ol>
+<li><strong>Season:</strong> Summer only.</li>
+<li><strong>Month:</strong> February and March only.</li>
+<li><strong>Date:</strong> It refers to the day of the month.</li>
+<li><strong>Temperature:</strong> <strong>Average milk temperature</strong> on that day.</li>
+</ol>
+
+<p><strong>Findings from section 1.4:</strong></p>
+
+<ol>
+<li>The dataset has no null row.</li>
+<li>The dataset has no duplicated row.</li>
+</ol>
+
+<p><strong>Findings from section 1.5, 1.6, and 1.7:</strong></p>
+
+<ol>
+<li>The <code>Temperature</code> data is right skewed. Might be a lognormal or
+gamma distribution.</li>
+<li>The <code>Temperature</code> data has an outlier with a value of 4.6.</li>
+<li>A medium proportion of the <code>Temperature</code> data for <code>Feb</code> and <code>Mar</code>
+data seem to exceed the 3.9°C boundary.</li>
+</ol>
+
+<hr />
+
+<p><strong>Next steps:</strong></p>
+
+<p>We can see that a medium proportion of the temperature data for both
+<code>Feb</code> and <code>Mar</code> exceed 3.9°C according to the plot from section 1.6. If
+the difference between temperature data is greater than 3.9°C, then it
+is the Cold Storage Plant problem. If the Cold Storage Plant keeps
+maintaining the temperature around the borderline 4°C, any slight issue
+throughout procurement process can negatively affect the milk
+temperature. Hence, to make it safer, it is better to have a sufficient
+margin of error.</p>
+
+<p>Before deciding on the testing method, it is vital to keep in mind that
+the distribution shown by the plot from section 1.7 is non-parametric.</p>
+
+<p><strong>There are 2 options to test the significance of the mean difference
+for non-parametric distribution:</strong></p>
+
+<ol>
+<li>Apply <strong>BoxCox transformation</strong> and <strong>perform one-sample t-test</strong>.
+Z-test is not applicable since we don’t know the standard deviation
+of the population.</li>
+<li>Apply <strong>one-sample Wilcoxon test for non-parametric test</strong>. However,
+non-parametric test is less efficient due to lower power compare to
+parametric test. Additionally, if large number of ties occur, it
+will make the test unreliable.</li>
+</ol>
+
+<p>If the outlier is a temporary mistake during the data collecting
+process, it isn’t a meaningful value. If the outlier is due to the
+temperature maintainence system issue, then it becomes a meaningful
+value since it can affect the milk quality. I will go for the later
+assumption, so I will not remove the outlier.</p>
+
+<hr />
+
+<h2 id="2-perform-hypothesis-testing">2. Perform hypothesis testing.</h2>
+
+<h3 id="2-1-perform-one-sample-t-test">2.1 Perform one-sample t-test.</h3>
+
+<p><strong>Null hypothesis:</strong> mu(Temperature) &lt;= 3.9</p>
+
+<p><strong>Alternative hypothesis:</strong> mu(Temperature) &gt; 3.9</p>
+
+<p><strong>Significant level:</strong> 0.1</p>
+
+<p>Cold Storage wants to ensure that the milk temperature is not
+significantly greater than 3.9°C in order to be vigilant. The reason
+Cold Storage sets a high alpha value at 0.1 (higher than the usual 0.05)
+is to make it easier to reject the null hypothesis. If no significant
+result shown, that means we have stronger confidence to say that the
+milk temperature is significantly lower than 3.9°C, which is what Cold
+Storage wants in order to be vigilant, although the TYPE 1 error becomes
+higher.</p>
+
+<p>Since a medium proportion of the temperature actually exceeds 3.9°C, the
+null hypothesis will most likely be rejected. Nevertheless, I will move
+on to testing.</p>
+
+<hr />
+
+<h4 id="2-1-1-applying-boxcox-transformation">2.1.1 Applying BoxCox Transformation.</h4>
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r"><span class="c1"># Find the optimal lambda for transformation. </span>
+bc <span class="o">=</span> boxcox<span class="p">(</span>Temperature <span class="o">~</span> Month<span class="p">,</span> data<span class="o">=</span>CS.temp.2018<span class="p">,</span> na.action<span class="o">=</span>na.omit<span class="p">,</span> lambda<span class="o">=</span><span class="kp">seq</span><span class="p">(</span><span class="m">-30</span><span class="p">,</span><span class="m">30</span><span class="p">))</span> </code></pre></div>
+<p><img src="unnamed-chunk-10-1.png" alt="" /></p>
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r">best.bc.lambda <span class="o">=</span> bc<span class="o">$</span>x<span class="p">[</span>bc<span class="o">$</span>y <span class="o">==</span> <span class="kp">max</span><span class="p">(</span>bc<span class="o">$</span>y<span class="p">)]</span>
+best.bc.lambda</code></pre></div>
+<pre><code>## [1] -12.42424
+</code></pre>
+
+<hr />
+
+<p>The optimal lambda for BoxCox transformation is <strong>around -12.4</strong>.</p>
+
+<hr />
+
+<h4 id="2-1-2-visualise-distribution-of-the-transformed-data">2.1.2 Visualise distribution of the transformed data.</h4>
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r">ggplot<span class="p">(</span>data<span class="o">=</span>CS.temp.2018<span class="p">)</span> <span class="o">+</span>
+    aes<span class="p">(</span>x<span class="o">=</span>Temperature<span class="o">^</span>best.bc.lambda<span class="p">)</span> <span class="o">+</span>
+    geom_density<span class="p">(</span>fill<span class="o">=</span><span class="s">&#34;blue&#34;</span><span class="p">,</span> color<span class="o">=</span><span class="s">&#34;blue&#34;</span><span class="p">,</span> alpha<span class="o">=</span><span class="m">.5</span><span class="p">)</span></code></pre></div>
+<p><img src="unnamed-chunk-11-1.png" alt="" /></p>
+
+<hr />
+
+<p>This is the result of the distribution for the temperature data after
+BoxCox transformation. Keep in mind that due to inverse transformation
+(-12.4 is negative exponent), the largest value will become the lowest
+value and vice versa.</p>
+
+<hr />
+
+<h4 id="2-1-3-perform-shapiro-wilk-and-anderson-darling-test-on-normality">2.1.3 Perform Shapiro-Wilk and Anderson Darling test on normality.</h4>
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r"><span class="c1"># Shapiro test before BoxCox Transformation.</span>
+shapiro.test<span class="p">(</span>CS.temp.2018<span class="o">$</span>Temperature<span class="p">)</span></code></pre></div>
+<pre><code>## 
+##  Shapiro-Wilk normality test
+## 
+## data:  CS.temp.2018$Temperature
+## W = 0.80656, p-value = 2.751e-05
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r"><span class="c1"># Anderson Darling test before BoxCox Transformation.</span>
+ad.test<span class="p">(</span>CS.temp.2018<span class="o">$</span>Temperature<span class="p">)</span></code></pre></div>
+<pre><code>## 
+##  Anderson-Darling normality test
+## 
+## data:  CS.temp.2018$Temperature
+## A = 1.8763, p-value = 6.78e-05
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r"><span class="c1"># Shapiro test after BoxCox Transformation.</span>
+shapiro.test<span class="p">(</span>CS.temp.2018<span class="o">$</span>Temperature<span class="o">^</span>best.bc.lambda<span class="p">)</span></code></pre></div>
+<pre><code>## 
+##  Shapiro-Wilk normality test
+## 
+## data:  CS.temp.2018$Temperature^best.bc.lambda
+## W = 0.90895, p-value = 0.00694
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r"><span class="c1"># Anderson Darling test after BoxCox Transformation.</span>
+ad.test<span class="p">(</span>CS.temp.2018<span class="o">$</span>Temperature<span class="o">^</span>best.bc.lambda<span class="p">)</span></code></pre></div>
+<pre><code>## 
+##  Anderson-Darling normality test
+## 
+## data:  CS.temp.2018$Temperature^best.bc.lambda
+## A = 1.406, p-value = 0.001027
+</code></pre>
+
+<hr />
+
+<p>The result still shows a <strong>significant departure from normality after
+performing the BoxCox transformation</strong>. Nevertheless, the distribution
+is far less skewed than before.</p>
+
+<p>Moving on to t-test. I implement an inverse transformation previously,
+so the alternative will be greater than, not less than.</p>
+
+<hr />
+
+<h4 id="2-1-4-perform-t-test">2.1.4 Perform t-test.</h4>
+
+<p><strong>The hypothesis for one-sample t-test after BoxCox Transformation:</strong></p>
+
+<p><strong>Null hypothesis:</strong> mu(exponential(Temperature, -12.4)) &gt;= 4.534e-08</p>
+
+<p><strong>Alternative hypothesis:</strong> mu(exponential(Temperature, -12.4)) &lt;
+4.534e-08</p>
+
+<p><strong>Significant level:</strong> 0.1</p>
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r"><span class="c1"># Perform t-test on the transformed temperature data. </span>
+<span class="c1"># Indicate less than as alternative due to inverse transformation. </span>
+t.test<span class="p">(</span>x<span class="o">=</span>CS.temp.2018<span class="o">$</span>Temperature<span class="o">^</span>best.bc.lambda<span class="p">,</span> mu<span class="o">=</span><span class="m">3.9</span><span class="o">^</span>best.bc.lambda<span class="p">,</span> alternative<span class="o">=</span><span class="s">&#34;less&#34;</span><span class="p">,</span> conf.level<span class="o">=</span><span class="m">0.90</span><span class="p">,</span> paired<span class="o">=</span><span class="kc">FALSE</span><span class="p">)</span></code></pre></div>
+<pre><code>## 
+##  One Sample t-test
+## 
+## data:  CS.temp.2018$Temperature^best.bc.lambda
+## t = -2.2528, df = 34, p-value = 0.01542
+## alternative hypothesis: true mean is less than 4.53388e-08
+## 90 percent confidence interval:
+##          -Inf 4.295747e-08
+## sample estimates:
+##    mean of x 
+## 3.966693e-08
+</code></pre>
+
+<hr />
+
+<h3 id="2-2-perform-one-sample-wilcoxon-test">2.2 Perform one-sample Wilcoxon test.</h3>
+
+<p><strong>Null hypothesis:</strong> median(Temperature) &lt;= 3.9</p>
+
+<p><strong>Alternative hypothesis:</strong> median(Temperature) &gt; 3.9</p>
+
+<p><strong>Significant level:</strong> 0.1</p>
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r">wilcox.test<span class="p">(</span>CS.temp.2018<span class="o">$</span>Temperature<span class="p">,</span> mu<span class="o">=</span><span class="m">3.9</span><span class="p">,</span> 
+            alternative<span class="o">=</span><span class="s">&#34;greater&#34;</span><span class="p">,</span> paired<span class="o">=</span><span class="kc">FALSE</span><span class="p">,</span> conf.level<span class="o">=</span><span class="m">.90</span><span class="p">,</span> correct<span class="o">=</span><span class="kc">TRUE</span><span class="p">)</span> </code></pre></div>
+<pre><code>## Warning in wilcox.test.default(CS.temp.2018$Temperature, mu = 3.9, alternative =
+## &quot;greater&quot;, : cannot compute exact p-value with ties
+
+## Warning in wilcox.test.default(CS.temp.2018$Temperature, mu = 3.9, alternative =
+## &quot;greater&quot;, : cannot compute exact p-value with zeroes
+
+## 
+##  Wilcoxon signed rank test with continuity correction
+## 
+## data:  CS.temp.2018$Temperature
+## V = 195, p-value = 0.002515
+## alternative hypothesis: true location is greater than 3.9
+</code></pre>
+
+<hr />
+
+<h3 id="2-3-summary-for-section-2">2.3 Summary for section 2.</h3>
+
+<p><strong>Findings from section 2.1 and 2.2:</strong></p>
+
+<ol>
+<li>T-test has <strong>0.015 p-value</strong>.</li>
+<li>Wilcoxon test has <strong>0.002 p-value</strong>.</li>
+</ol>
+
+<p>Both of the test results <strong>reject the null hypothesis due to low p-values</strong>,
+which suggests that the <strong>mean and median temperature is greater than 3.9°C</strong>.
+Hence, it seems to suggest that <strong>Cold Storage Plant should amend their maintenance system</strong>.</p>
+
+<p>However, the result from the t-test is less reliable due to non-normal
+distribution. To resolve this, we can collect a larger sample size of
+temperature data to see if the distribution converges to normal.
+Otherwise, we can still perform BoxCox transformation after collecting
+more samples.</p>
+
+<p>The result from Wilcoxon test is also less reliable due to ties. To
+resolve this, we can retrieve temperature data that is not rounded to 1
+decimal to ensure the temperature data maintains a continuous value, and
+thus avoid the ties.</p>
+
+<hr />
+
+<h2 id="3-conclusion">3. Conclusion.</h2>
+
+<p>In conclusion, based on the test results above, it seems that Cold
+Storage Plant is responsible for the cause. If we want to get an
+accurate test result, we can either increase the sample size or retrieve
+the temperature data in continuous values.</p>
+
+<hr />
+
+<h2 id="4-notes-for-future-reference">4. Notes for future reference.</h2>
+
+<p><strong>List of things to take note:</strong></p>
+
+<ol>
+<li>The t-test is performed on non-normal distribution, so the result is
+less reliable.</li>
+<li>Ties issue for the one-sample Wilcoxon test isn’t addressed, so the
+result is less reliable.</li>
+</ol>
+
+    </div>
+  </div>
+  
+</article>
+
+
+        
+                </div>
+            </div>
+        </div>
+
+
+        
+        <br>
+        <footer class="footer text-center">
+            <div class="container">
+                <span class="text-muted">
+                    Copyright &copy; Lionel Tay Yee Dang, <time datetime="2020">2020</time>.
+                    
+                </span>
+            </div>
+        </footer>
+
+
+        
+        <a id="custom_github" class="btn btn-primary btn-lg" href="https://github.com/lionelcub" role="button" title="Click to go to Gihub site" data-toggle="tooltip" data-placement="bottom">
+            <i class="fab fa-github-alt"></i>
+        </a>
+        <a id="custom_back-to-top" class="btn btn-primary btn-lg back-to-top" href="#" role="button" title="Click to return to the top page" data-toggle="tooltip" data-placement="bottom">
+            <i class="fas fa-caret-up"></i>
+        </a>
+
+
+        
+        <script 
+            src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+            crossorigin="anonymous"></script>
+        <script 
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+            crossorigin="anonymous"></script>
+        <script 
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+            crossorigin="anonymous"></script>
+
+    </body>
+
+</html>

@@ -1,51 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Statistical Testing on Lionel Tay</title>
+    <title>Statistical_testings on Lionel Tay</title>
     <link>https://lionelcub.github.io/site/statistical_testing/</link>
-    <description>Recent content in Statistical Testing on Lionel Tay</description>
+    <description>Recent content in Statistical_testings on Lionel Tay</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Jul 2019 22:36:38 +0800</lastBuildDate>
     
 	<atom:link href="https://lionelcub.github.io/site/statistical_testing/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Cold Storage Milk Quality Maintainance Investigation.</title>
-      <link>https://lionelcub.github.io/site/statistical_testing/cold_storage_milk_quality_maintainance_investigation/</link>
-      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
-      
-      <guid>https://lionelcub.github.io/site/statistical_testing/cold_storage_milk_quality_maintainance_investigation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Investigating Complaint Against Cold Storage Milk Products.</title>
-      <link>https://lionelcub.github.io/site/statistical_testing/investigating_complaint_against_cold_storage_milk_products/</link>
-      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
-      
-      <guid>https://lionelcub.github.io/site/statistical_testing/investigating_complaint_against_cold_storage_milk_products/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Researching The Effect Of Disability On Device Preference.</title>
-      <link>https://lionelcub.github.io/site/statistical_testing/researching_the_effect_of_disability_on_device_preference/</link>
-      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
-      
-      <guid>https://lionelcub.github.io/site/statistical_testing/researching_the_effect_of_disability_on_device_preference/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Researching User Preference On Note-taking Apps.</title>
-      <link>https://lionelcub.github.io/site/statistical_testing/researching_user_preference_on_note_taking_apps/</link>
-      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
-      
-      <guid>https://lionelcub.github.io/site/statistical_testing/researching_user_preference_on_note_taking_apps/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>

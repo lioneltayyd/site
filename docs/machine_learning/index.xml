@@ -1,24 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Machine Learning on Lionel Tay</title>
+    <title>Machine_learnings on Lionel Tay</title>
     <link>https://lionelcub.github.io/site/machine_learning/</link>
-    <description>Recent content in Machine Learning on Lionel Tay</description>
+    <description>Recent content in Machine_learnings on Lionel Tay</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Jul 2019 22:36:38 +0800</lastBuildDate>
     
 	<atom:link href="https://lionelcub.github.io/site/machine_learning/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Ames Housing Prices Prediction</title>
-      <link>https://lionelcub.github.io/site/machine_learning/ames_housing_prices_regression/</link>
-      <pubDate>Sat, 07 Sep 2019 05:48:44 +0800</pubDate>
-      
-      <guid>https://lionelcub.github.io/site/machine_learning/ames_housing_prices_regression/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>
