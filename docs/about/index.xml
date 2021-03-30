@@ -2,23 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Abouts on Lionel Tay</title>
-    <link>https://lionelcub.github.io/site/about/</link>
+    <link>https://lioneltayyd.github.io/site/about/</link>
     <description>Recent content in Abouts on Lionel Tay</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 21 Jul 2019 04:50:32 +0800</lastBuildDate>
     
-	<atom:link href="https://lionelcub.github.io/site/about/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lioneltayyd.github.io/site/about/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>https://lionelcub.github.io/site/about/about_me/</link>
+      <link>https://lioneltayyd.github.io/site/about/about_me/</link>
       <pubDate>Sun, 21 Jul 2019 04:50:32 +0800</pubDate>
       
-      <guid>https://lionelcub.github.io/site/about/about_me/</guid>
-      <description> Hi, I&amp;rsquo;m Lionel, nice to meet you.  -- Organised, curious, initiative, and down-to-earth data analyst with a background in user experience, customer, web, and marketing analytics in the marketing and advertising field. Proficiencies include identifying business requirements or opportunities, planning design experiment, insight mining, machine learning, visualisation, and presenting result-oriented actionable insights to decision-makers. An Agile and Scrum practitioner.
- Email: lioneltay.yd@gmail.com Github: @lionelcub LinkedIn: @lioneltayyd   -- </description>
+      <guid>https://lioneltayyd.github.io/site/about/about_me/</guid>
+      <description>About Me  -- Down-to-earth data analyst with a background in user experience, web, and marketing analytics in the software, marketing, and advertising industries. Experience includes identifying business requirements or opportunities, insight mining, visualisation, model development, minor devops, and presenting actionable insights to decision-makers in an agile environment.
+ Email: lioneltay.yd@gmail.com Github: @lioneltayyd LinkedIn: @lioneltayyd  Aptitudes
+ Planning and implementing simple design experiment and AB testing. Data analysis, plus dashboard storytelling and reporting.</description>
     </item>
     
   </channel>

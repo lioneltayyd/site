@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Machine_deep_learnings on Lionel Tay</title>
+    <link>https://lioneltayyd.github.io/site/machine_deep_learning/</link>
+    <description>Recent content in Machine_deep_learnings on Lionel Tay</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://lioneltayyd.github.io/site/machine_deep_learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

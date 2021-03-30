@@ -3,384 +3,104 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://lionelcub.github.io/site/analytical_tools/api_request/</loc>
+    <loc>https://lioneltayyd.github.io/site/machine_deep_learning/customer_churn_analysis/analyse_the_airlines_passenger_satisfaction/</loc>
     <lastmod>2020-05-01T22:36:38+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lionelcub.github.io/site/analytical_tools/python/ames_housing_prices_regression/</loc>
+    <loc>https://lioneltayyd.github.io/site/data_statistical_analysis/anova_or_factorial_anova/</loc>
     <lastmod>2020-05-01T22:36:38+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lionelcub.github.io/site/applied_domain/price_estimation/ames_housing_prices_regression/</loc>
+    <loc>https://lioneltayyd.github.io/site/machine_deep_learning/customer_churn_analysis/</loc>
     <lastmod>2020-05-01T22:36:38+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lionelcub.github.io/site/machine_learning/price_estimation/ames_housing_prices_regression/</loc>
+    <loc>https://lioneltayyd.github.io/site/dashboard_data_exploration/streamlit_dashboard/market_trades_dashboard/</loc>
     <lastmod>2020-05-01T22:36:38+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lionelcub.github.io/site/statistical_testing/anova_or_factorial_anova/</loc>
+    <loc>https://lioneltayyd.github.io/site/data_statistical_analysis/anova_or_factorial_anova/investigate_the_cold_storage_milk_quality_maintainance/</loc>
     <lastmod>2020-05-01T22:36:38+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lionelcub.github.io/site/analytical_tools/api_request/applying_api_requests_on_hacker_news_search_api/</loc>
+    <loc>https://lioneltayyd.github.io/site/data_statistical_analysis/one_sample_test/investigate_the_complaint_against_cold_storage_milk_products/</loc>
     <lastmod>2020-05-01T22:36:38+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lionelcub.github.io/site/working_process/data_collecting/applying_api_requests_on_hacker_news_search_api/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/analytical_tools/web_scraping/applying_web_scraping_on_imdb_and_metascore_movie_ratings/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/working_process/data_collecting/applying_web_scraping_on_imdb_and_metascore_movie_ratings/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/working_process/big_data/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/dashboard_visualisation/bokeh_dashboard/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/working_process/building_database/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/analytical_tools/luigi_pipeline/building_luigi_pipeline_to_collect_and_process_etf_data/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/analytical_tools/python/building_luigi_pipeline_to_collect_and_process_etf_data/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/applied_domain/financial_market/building_luigi_pipeline_to_collect_and_process_etf_data/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/working_process/data_pipeline/building_luigi_pipeline_to_collect_and_process_etf_data/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/working_process/data_pipeline/building_pipeline_for_hacker_news_search_api/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/machine_learning/clustering/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/analytical_tools/r/cold_storage_milk_quality_maintainance_investigation/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/applied_domain/product_analysis/cold_storage_milk_quality_maintainance_investigation/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/statistical_testing/anova_or_factorial_anova/cold_storage_milk_quality_maintainance_investigation/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/analytical_tools/python/constructing_data_tables_for_market_analysis/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/applied_domain/financial_market/constructing_data_tables_for_market_analysis/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/dashboard_visualisation/bokeh_dashboard/constructing_data_tables_for_market_analysis/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/analytical_tools/python/constructing_etf_dashboard_for_market_analysis/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/applied_domain/financial_market/constructing_etf_dashboard_for_market_analysis/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/dashboard_visualisation/bokeh_dashboard/constructing_etf_dashboard_for_market_analysis/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/machine_learning/conversion_prediction/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/applied_domain/customer_analysis/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/dashboard_visualisation/dash_dashboard/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/working_process/data_cleaning/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/working_process/data_collecting/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/working_process/data_pipeline/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/analytical_tools/sqlite_or_postgresql/designing_database_with_sql/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/working_process/building_database/designing_database_with_sql/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/applied_domain/financial_market/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/analytical_tools/python/finding_the_best_markets_to_advertise_products/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/applied_domain/market_analysis/finding_the_best_markets_to_advertise_products/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/analytical_tools/r/investigating_complaint_against_cold_storage_milk_products/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/applied_domain/product_analysis/investigating_complaint_against_cold_storage_milk_products/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/statistical_testing/one_sample_test/investigating_complaint_against_cold_storage_milk_products/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/</loc>
+    <loc>https://lioneltayyd.github.io/site/</loc>
     <lastmod>2020-05-01T22:36:38+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://lionelcub.github.io/site/analytical_tools/luigi_pipeline/</loc>
+    <loc>https://lioneltayyd.github.io/site/dashboard_data_exploration/streamlit_dashboard/malaysia_bank_card_dashboard/</loc>
     <lastmod>2020-05-01T22:36:38+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lionelcub.github.io/site/analytical_tools/api_request/collecting_fred_data_and_constructing_economic_dashboard/</loc>
+    <loc>https://lioneltayyd.github.io/site/data_statistical_analysis/one_sample_test/</loc>
     <lastmod>2020-05-01T22:36:38+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lionelcub.github.io/site/analytical_tools/python/collecting_fred_data_and_constructing_economic_dashboard/</loc>
+    <loc>https://lioneltayyd.github.io/site/data_statistical_analysis/anova_or_factorial_anova/researching_the_effect_of_disability_on_device_preference/</loc>
     <lastmod>2020-05-01T22:36:38+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lionelcub.github.io/site/applied_domain/financial_market/collecting_fred_data_and_constructing_economic_dashboard/</loc>
+    <loc>https://lioneltayyd.github.io/site/data_statistical_analysis/anova_or_factorial_anova/researching_the_user_preference_on_note_taking_apps/</loc>
     <lastmod>2020-05-01T22:36:38+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lionelcub.github.io/site/dashboard_visualisation/bokeh_dashboard/collecting_fred_data_and_constructing_economic_dashboard/</loc>
+    <loc>https://lioneltayyd.github.io/site/dashboard_data_exploration/streamlit_dashboard/</loc>
     <lastmod>2020-05-01T22:36:38+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lionelcub.github.io/site/working_process/data_collecting/collecting_fred_data_and_constructing_economic_dashboard/</loc>
+    <loc>https://lioneltayyd.github.io/site/dashboard_data_exploration/tableau/</loc>
     <lastmod>2020-05-01T22:36:38+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lionelcub.github.io/site/applied_domain/market_analysis/</loc>
+    <loc>https://lioneltayyd.github.io/site/dashboard_data_exploration/tableau/tableau_public_gallery/</loc>
     <lastmod>2020-05-01T22:36:38+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lionelcub.github.io/site/statistical_testing/one_sample_test/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/applied_domain/price_estimation/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/machine_learning/price_estimation/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/applied_domain/product_analysis/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/analytical_tools/python/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/analytical_tools/r/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/analytical_tools/r/researching_the_effect_of_disability_on_device_preference/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/applied_domain/user_testing/researching_the_effect_of_disability_on_device_preference/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/statistical_testing/anova_or_factorial_anova/researching_the_effect_of_disability_on_device_preference/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/analytical_tools/r/researching_user_preference_on_note_taking_apps/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/applied_domain/user_testing/researching_user_preference_on_note_taking_apps/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/statistical_testing/anova_or_factorial_anova/researching_user_preference_on_note_taking_apps/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/analytical_tools/sqlite_or_postgresql/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/dashboard_visualisation/tableau/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/dashboard_visualisation/tableau/tableau_public_gallery/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/applied_domain/user_testing/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/analytical_tools/web_scraping/</loc>
-    <lastmod>2020-05-01T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/about/about_me/</loc>
+    <loc>https://lioneltayyd.github.io/site/about/about_me/</loc>
     <lastmod>2019-07-21T04:50:32+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lionelcub.github.io/site/about/</loc>
+    <loc>https://lioneltayyd.github.io/site/about/</loc>
     <lastmod>2019-07-21T04:50:32+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://lionelcub.github.io/site/blog/</loc>
+    <loc>https://lioneltayyd.github.io/site/blog/</loc>
     <lastmod>2019-07-19T22:36:38+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lionelcub.github.io/site/notes/</loc>
-    <lastmod>2019-07-19T22:36:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/analytical_tools/</loc>
+    <loc>https://lioneltayyd.github.io/site/dashboard_data_exploration/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://lionelcub.github.io/site/applied_domain/</loc>
+    <loc>https://lioneltayyd.github.io/site/data_statistical_analysis/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://lionelcub.github.io/site/dashboard_visualisation/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/machine_learning/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/statistical_testing/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://lionelcub.github.io/site/working_process/</loc>
+    <loc>https://lioneltayyd.github.io/site/machine_deep_learning/</loc>
     <priority>0</priority>
   </url>
   
