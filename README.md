@@ -1,3 +1,3 @@
 # Personal Sites # 
-Portfolio, articles sharing, and technical notes. 
-https://lionelcub.github.io/site
+
+To showcase projects, apps, dashboards, and articles. https://lioneltayyd.github.io/site
