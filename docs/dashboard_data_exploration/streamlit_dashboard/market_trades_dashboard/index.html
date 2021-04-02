@@ -14,7 +14,7 @@
     "@type": "BlogPosting",
     "headline": "ETF \x26 Equity Market Trades Dashboard",
     "url": "https:\/\/lioneltayyd.github.io\/site\/dashboard_data_exploration\/streamlit_dashboard\/market_trades_dashboard\/",
-    "wordCount": "0",
+    "wordCount": "155",
     "datePublished": "2020-05-01T22:36:38\x2b08:00",
     "dateModified": "2020-05-01T22:36:38\x2b08:00",
     "author": {
@@ -175,6 +175,63 @@ MathJax.Hub.Config({
   <div class="technical_note">
     <div class="content">    
       
+
+<h1 id="etf-equity-market-trades-dashboard">ETF &amp; Equity Market Trades Dashboard</h1>
+
+<hr />
+
+<h2 id="1-project-charter">1 Project Charter.</h2>
+
+<p><strong>Project goal:</strong></p>
+
+<p>Inspect the seasonal trends for the main ETFs and equities for weekdays,
+trading days, holidays, Triple Witching Week, and others. And to follow
+up with the current economic status.</p>
+
+<p><strong>Project scope:</strong></p>
+
+<p>From building data pipeline, to processing, to data visualisation and
+modelling. Refer to the diagram from <a href="#4-project-architecture">4.0 Project Architecture</a>.</p>
+
+<hr />
+
+<h2 id="2-dashboard-app">2 Dashboard app.</h2>
+
+<p><a href="https://market-trades-dashboard.herokuapp.com">Link to view the dashboard</a>. It might take around 10 seconds or less to load since the server is free of charge.</p>
+
+<p><a href="https://market-trades-dashboard.herokuapp.com"><img src="streamlit_overview.png" alt="Streamlit Sample" /></a></p>
+
+<hr />
+
+<h2 id="3-about-the-dataset">3 About the dataset.</h2>
+
+<p><strong>Notice:</strong></p>
+
+<ol>
+<li>Since there are too many data to upload to the free server, I only
+sample a few ETFs and equities for the online dashboard for demo.</li>
+<li>The latest update for the ticker data is March 2021.</li>
+<li>The latest update for the economic data is March 2020.</li>
+</ol>
+
+<hr />
+
+<h2 id="4-project-architecture">4 Project Architecture.</h2>
+
+<p><img src="architecture_overview.jpg" alt="Project Architecture Diagram" /></p>
+
+<hr />
+
+<h2 id="5-repository-link">5 Repository Link.</h2>
+
+<p><strong>This project encompasses 3 parts currently:</strong></p>
+
+<ol>
+<li><a href="https://github.com/lioneltayyd/compile-ticker-data">Luigi pipeline</a>.</li>
+<li><a href="https://github.com/lioneltayyd/market-trades-dashboard">Streamlit dashboard</a>.</li>
+<li>ML modelling.</li>
+</ol>
+
     </div>
   </div>
   

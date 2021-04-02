@@ -22,5 +22,14 @@ Airline industry is getting more competitive due to the disruption of budget air
 Business case:</description>
     </item>
     
+    <item>
+      <title>Analyse The Airlines Passengers&#39; Satisfaction</title>
+      <link>https://lioneltayyd.github.io/site/machine_deep_learning/customer_churn_analysis/notebook/analyse_the_airlines_passenger_satisfaction/</link>
+      <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
+      
+      <guid>https://lioneltayyd.github.io/site/machine_deep_learning/customer_churn_analysis/notebook/analyse_the_airlines_passenger_satisfaction/</guid>
+      <description>Analyse The Airlines Passengers&amp;rsquo; Satisfaction Table of content.  1 Project Charter. 2 About the dataset. 3 Exploratory data analysis.  3.1 Investigate the data structure. 3.2 Explore categorical variables. 3.3 Explore numerical variables. 3.4 Check the correlation. 3.5 Investigate the ‘Age’ variable.   4 Investigate the cost of customer churn. 5 Data Preprocessing.  5.1 Prepare TRAIN and TEST set. 5.2 Double check if null exists.   6 Model training and evaluation.</description>
+    </item>
+    
   </channel>
 </rss>
