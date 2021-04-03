@@ -883,7 +883,7 @@ img {
   }
 }
 
-embed {
+iframe {
   max-width: 100%;
   height: 600px;
   width: 100%;
@@ -893,7 +893,7 @@ embed {
 }
 
 @media screen and (max-width: 500px) {
-  embed {
+  iframe {
     max-width: 100%;
     height: 400px;
     width: 100%; /* ie8 */
