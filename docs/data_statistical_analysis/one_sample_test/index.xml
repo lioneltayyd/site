@@ -12,12 +12,24 @@
     
     
     <item>
-      <title>Investigate The Complaint Against Cold Storage Milk Products</title>
+      <title>Investigating The Complaint Against Cold Storage Milk Products</title>
       <link>https://lioneltayyd.github.io/site/data_statistical_analysis/one_sample_test/investigate_the_complaint_against_cold_storage_milk_products/</link>
       <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
       
       <guid>https://lioneltayyd.github.io/site/data_statistical_analysis/one_sample_test/investigate_the_complaint_against_cold_storage_milk_products/</guid>
-      <description>Investigate The Complaint Against Cold Storage Milk Products. Project purpose. In Mar 2018, Cold Storage started getting complaints from their clients that they have been getting complaints from end consumers of the dairy products going sour and often smelling. On getting these complaints, the supervisor pulls out data of the last 35 days’ temperatures. As a safety measure, the Supervisor decides to be vigilant to maintain the temperature at 3.</description>
+      <description>Investigating The Complaint Against Cold Storage Milk Products. 1 Project Charter. Context:
+Cold Storage started its operations in Jan 2016. They are in the business of storing Pasteurized Fresh Whole or Skimmed Milk, Sweet Cream, Flavoured Milk Drinks.
+Problem statement:
+In Mar 2018, Cold Storage started getting complaints from their clients that they have been getting complaints from end consumers of the dairy products going sour and often smelling. On getting these complaints, the supervisor pulls out data of the last 35 days’ temperatures.</description>
+    </item>
+    
+    <item>
+      <title>Investigating The Complaint Against Cold Storage Milk Products</title>
+      <link>https://lioneltayyd.github.io/site/data_statistical_analysis/one_sample_test/notebook/investigate_the_complaint_against_cold_storage_milk_products/</link>
+      <pubDate>Fri, 01 May 2020 22:36:38 +0800</pubDate>
+      
+      <guid>https://lioneltayyd.github.io/site/data_statistical_analysis/one_sample_test/notebook/investigate_the_complaint_against_cold_storage_milk_products/</guid>
+      <description>Investigating The Complaint Against Cold Storage Milk Products. Project purpose. In Mar 2018, Cold Storage started getting complaints from their clients that they have been getting complaints from end consumers of the dairy products going sour and often smelling. On getting these complaints, the supervisor pulls out data of the last 35 days’ temperatures. As a safety measure, the Supervisor decides to be vigilant to maintain the temperature at 3.</description>
     </item>
     
   </channel>
